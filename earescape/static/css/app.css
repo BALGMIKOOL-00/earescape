@@ -1,0 +1,41 @@
+:root {
+  --bg-canvas: #FAF9F6;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F2F0EB;
+  --border-hairline: #E4E1DA;
+  --text-primary: #161614;
+  --text-secondary: #63615B;
+  --accent-primary: #C85A32;
+  --accent-secondary: #1F5C6E;
+  --accent-evergreen: #5B4B8A;
+}
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Noto Sans KR", sans-serif;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+}
+
+.font-serif {
+  font-family: "Noto Serif KR", Georgia, serif;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.htmx-indicator {
+  display: none;
+}
+.htmx-request .htmx-indicator,
+.htmx-request.htmx-indicator {
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,15 @@
+<div class="space-y-2">
+  <p class="font-mono text-[10px] uppercase tracking-wider text-[#63615B]">최근 데이터 수집 이력</p>
+  {% if logs.is_empty() %}
+  <p class="text-xs text-[#63615B]">아직 수동 수집 이력이 없습니다. 위 버튼을 눌러 첫 수집을 실행해 보세요.</p>
+  {% else %}
+  <ul class="space-y-1.5 text-[11px]">
+    {% for l in logs %}
+    <li class="flex items-center justify-between gap-2 rounded-lg bg-[#FAF9F6] px-3 py-2">
+      <span class="truncate text-[#161614]">{{ l.summary_message }}</span>
+      <span class="shrink-0 font-mono text-[10px] text-[#63615B]">{{ l.triggered_at }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>

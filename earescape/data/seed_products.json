@@ -1,0 +1,1903 @@
+[
+  {
+    "id": "apple-airpods-max-2",
+    "brand": "Apple",
+    "name": "Apple AirPods Max 2",
+    "form_factor": "over_ear",
+    "release_date": "2026-03-16",
+    "release_policy": "rolling_12_months",
+    "price_usd": 549.0,
+    "price_krw_est": 799000,
+    "anc_support": true,
+    "battery_hours": "최대 20시간 (ANC 켜짐)",
+    "codecs": [
+      "AAC",
+      "SBC",
+      "USB-C Lossless"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "H2 칩셋으로 업그레이드되어 애플 생태계에서 최상급 공간 음향과 노이즈 캔슬링을 제공하는 플래그십 오버이어 헤드폰입니다.",
+    "source_url": "https://www.apple.com/newsroom/2026/03/apple-introduces-airpods-max-2-powered-by-h2/",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 9,
+      "isolation_anc": 10,
+      "comfort": 7,
+      "signature_label": "밸런스 공간음향형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 3월 16일 발표된 Apple H2 칩 탑재 2세대 오버이어 헤드폰. ANC 활성화 기준 최대 20시간 재생을 지원하며 USB-C 단자를 통한 무손실 유선 오디오와 적응형 오디오, 개인 맞춤형 공간 음향을 제공합니다."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 업계 최상위권의 액티브 노이즈 캔슬링 및 투명 모드, Apple 기기 간 매끄러운 자동 전환, 넓고 입체적인 공간 음향. 단점: 알루미늄 하우징 특유의 무게감과 장력, 경쟁 플래그십 대비 짧은 20시간 배터리 및 높은 가격($549)."
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-5",
+    "brand": "Apple",
+    "name": "Apple AirPods 5",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-09-09",
+    "release_policy": "rolling_12_months",
+    "price_usd": 129.0,
+    "price_krw_est": 199000,
+    "anc_support": true,
+    "battery_hours": "최대 4시간 (ANC 켜짐, 케이스 포함 최대 20시간)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "실리콘 팁이 부담스러운 입문자도 기본 모델 가격으로 오픈형 액티브 노이즈 캔슬링을 누릴 수 있는 애플의 최신 오픈형 이어버드입니다.",
+    "source_url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 7,
+      "comfort": 9,
+      "signature_label": "편안한 보컬 중심형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 9일 발표(9월 18일 출시), $129 기본형 모델에도 오픈형 액티브 노이즈 캔슬링(ANC)과 실시간 번역 기능을 기본 탑재. H2 칩, Bluetooth 5.3, IP54 방진·방수, ANC 켜짐 기준 단독 최대 4시간 및 케이스 포함 최대 20시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 전작 대비 $50 낮아진 가격으로 오픈형 ANC 제공, 귀를 막지 않는 가벼운 착용감, 아이폰과의 뛰어난 연동성. 단점: 커널형 대비 차음성 한계, ANC 사용 시 단독 4시간의 다소 짧은 배터리, 기본형은 무선 충전 및 스템 볼륨 스와이프 미지원."
+      }
+    ]
+  },
+  {
+    "id": "apple-airpods-5-wireless-charging",
+    "brand": "Apple",
+    "name": "Apple AirPods 5 (Wireless Charging Case)",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-09-09",
+    "release_policy": "rolling_12_months",
+    "price_usd": 149.0,
+    "price_krw_est": 229000,
+    "anc_support": true,
+    "battery_hours": "최대 5시간 (ANC 켜짐, 케이스 포함 최대 22시간)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "AirPods 5 기본형에서 $20만 추가해 무선 충전 케이스, 나의 찾기 스피커, 볼륨 스와이프와 더 긴 배터리를 모두 챙긴 실속형 상위 모델입니다.",
+    "source_url": "https://www.apple.com/shop/buy-airpods/airpods-5",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 7,
+      "comfort": 9,
+      "signature_label": "편안한 보컬 중심형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 9일 발표된 $149 상위 트림. Qi 및 Apple Watch 무선 충전 케이스, 분실 방지용 케이스 내장 스피커(나의 찾기), 이어버드 스템 볼륨 스와이프 제스처 지원. ANC 켜짐 기준 단독 최대 5시간, 케이스 포함 최대 22시간 재생 및 IP54 방진·방수."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 기본형 대비 $20 차이로 배터리(5h/22h)·무선 충전·볼륨 스와이프·나의 찾기 스피커까지 업그레이드되는 높은 가성비. 단점: ANC 성능 자체는 기본형과 동일하며 장거리 비행 등 장시간 사용에는 배터리가 다소 짧음."
+      }
+    ]
+  },
+  {
+    "id": "apple-beats-360",
+    "brand": "Apple",
+    "name": "Beats 360 (by Apple)",
+    "form_factor": "over_ear",
+    "release_date": "2026-09-24",
+    "release_policy": "rolling_12_months",
+    "price_usd": 349.99,
+    "price_krw_est": 499000,
+    "anc_support": true,
+    "battery_hours": "최대 32시간 (ANC 켜짐)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IPX4",
+    "beginner_summary": "운동과 일상을 모두 소화할 수 있도록 IPX4 생활방수와 교체 가능한 이어·헤드밴드 쿠션을 결합한 Apple 산하 Beats의 신형 오버이어 헤드폰입니다.",
+    "source_url": "https://www.beatsbydre.com/company/press/beats-360",
+    "sound_profile": {
+      "bass": 9,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "펀치감 있는 저음 강조형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 24일 출시된 Beats 최초의 쿠션 교체형 오버이어 ANC 헤드폰($349.99). 40mm 듀얼 마그넷 드라이버, IPX4 땀·생활방수, 9개 MEMS 마이크, 적응형 EQ, 동적 머리 추적 개인 맞춤형 공간 음향, ANC 켜짐 기준 최대 32시간 배터리 및 5분 충전 1시간 Fast Fuel 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오버이어 헤드폰 중 드문 IPX4 방수 및 세척·교체 가능한 퍼포먼스 니트/울트라플러시 쿠션, iOS·Android 네이티브 연동 및 멀티포인트. 단점: 유선 오디오 입력 및 무손실 코덱 미지원, 착용 감지 센서 부재, ANC는 보스·소니 플래그십 대비 한 수 아래."
+      }
+    ]
+  },
+  {
+    "id": "apple-beats-solo-buds-2026-orange",
+    "brand": "Apple",
+    "name": "Beats Solo Buds (2026 Orange Edition)",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-07-02",
+    "release_policy": "rolling_12_months",
+    "price_usd": 79.99,
+    "price_krw_est": 109000,
+    "anc_support": false,
+    "battery_hours": "최대 18시간 (유닛 단독, 케이스 내장 배터리 없음)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "주머니에 쏙 들어가는 초소형 케이스와 유닛 단독 18시간 배터리가 강점인 Apple 산하 Beats의 2026년 여름 신규 오렌지 에디션 입문용 이어버드입니다.",
+    "source_url": "https://www.macrumors.com/2026/07/02/apple-just-released-a-new-product/",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 6,
+      "isolation_anc": 5,
+      "comfort": 8,
+      "signature_label": "경쾌한 V자 펀사운드"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 7월 2일 Apple/Beats가 북미·일본 시장에 신규 출시한 레드 'b' 로고 오렌지 컬러 에디션($79.99). 커널형 패시브 차음 구조, 이어버드 단독 최대 18시간 재생, iOS·Android 원터치 페어링 지원. 초소형 휴대 케이스는 내장 배터리가 없어 USB-C 유선 연결 시 충전."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: $79.99의 합리적 가격과 뛰어난 휴대성, 이어버드 단독 18시간의 긴 연속 재생 시간, 애플·안드로이드 모두 간편한 연동. 단점: 액티브 노이즈 캔슬링(ANC) 및 공식 방수 등급 미지원, 케이스 자체 배터리 부재로 외출 시 추가 충전 불가."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-buds4",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Buds4",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-02-25",
+    "release_policy": "rolling_12_months",
+    "price_usd": 179.99,
+    "price_krw_est": 239000,
+    "anc_support": true,
+    "battery_hours": "최대 5시간 (ANC 켜짐, 케이스 포함 최대 24시간)",
+    "codecs": [
+      "SSC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "귀를 꽉 막지 않는 편안한 오픈형 착용감에 적응형 EQ와 ANC, 갤럭시 AI 기능을 담은 삼성의 2026년 표준 무선 이어버드입니다.",
+    "source_url": "https://news.samsung.com/us/samsung-unveils-galaxy-buds4-series-best-hi-fi-sound-enhanced-comfort-fit/",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 7,
+      "isolation_anc": 6,
+      "comfort": 9,
+      "signature_label": "깔끔한 올라운드형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 2월 25일 Galaxy S26 시리즈와 함께 언팩에서 공개된 오픈핏 블레이드 스템 무선 이어버드($179.99). 1만 회 이상 시뮬레이션으로 개선된 인체공학 착용감, ANC·주변 소리 듣기·적응형 EQ·Super Clear Call 지원. ANC 켜짐 기준 단독 최대 5시간, 케이스 포함 최대 24시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 장시간 착용해도 이압이 적은 편안한 오픈형 핏, 갤럭시 스마트폰과 매끄러운 AI 통역·자동 전환, 깔끔한 중음과 통화 품질. 단점: 오픈형 구조 특성상 커널형(Buds4 Pro) 대비 저음 밀도와 차음성이 낮으며 고해상도 코덱·AI 기능은 갤럭시 기기에 최적화."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-buds4-pro",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Buds4 Pro",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-02-25",
+    "release_policy": "rolling_12_months",
+    "price_usd": 249.99,
+    "price_krw_est": 329000,
+    "anc_support": true,
+    "battery_hours": "최대 6시간 (ANC 켜짐, 케이스 포함 최대 26시간)",
+    "codecs": [
+      "SSC UHQ (24-bit/96kHz)",
+      "SSC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP57",
+    "beginner_summary": "대형 우퍼·평판 트위터 2-way 스피커와 24-bit/96kHz 고음질, IP57 방수까지 갖춘 갤럭시 생태계 최상위 플래그십 커널형 이어버드입니다.",
+    "source_url": "https://www.samsung.com/us/audio-sound/galaxy-buds4-pro/",
+    "sound_profile": {
+      "bass": 9,
+      "mid": 8,
+      "treble": 9,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "고해상도 하이파이 다이내믹형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 2월 25일 공개된 삼성 플래그십 커널형 TWS($249.99). 커진 우퍼와 평판 트위터의 2-way 음향 구조, SSC UHQ 24-bit/96kHz Hi-Fi 오디오, 향상된 적응형 ANC 2.0(음성·사이렌 감지 포함), IP57 방진·방수, ANC 켜짐 기준 단독 6시간 및 케이스 포함 최대 26시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 깊이 있는 저음과 선명한 고음의 2-way 사운드, IP57의 강력한 방진·방수 내구성, 갤럭시 S26 등 호환 기기에서 탁월한 초광대역 통화 품질. 단점: SSC UHQ 고음질 및 일부 AI 기능이 삼성 외 기기에서 제한되며, 최강 ANC 경쟁작 대비 극저주파 차단은 미세하게 아쉬움."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-buds-on",
+    "brand": "Samsung",
+    "name": "Samsung Galaxy Buds On",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-10-28",
+    "release_policy": "rolling_12_months",
+    "price_usd": 229.0,
+    "price_krw_est": 299000,
+    "anc_support": false,
+    "battery_hours": "최대 9.5시간 (케이스 포함 최대 38시간)",
+    "codecs": [
+      "SSC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "귀에 가볍게 끼우는 C자형 이어커프 구조로 주변 소리를 자연스럽게 들으며 하루 종일 착용할 수 있는 삼성 최초의 클립형 오픈이어 이어버드입니다.",
+    "source_url": "https://news.samsung.com/us/samsung-galaxy-buds-on-us-comfortable-open-ear-listening/",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 10,
+      "signature_label": "자연스러운 오픈형 보컬 중심"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 10월 한국 출시 및 10월 28일 미국 출시 발표($229 / 국내 299,000원). 유닛당 6.65g의 저압박 C자형 클립 오픈이어 디자인, 단독 최대 9.5시간·케이스 포함 최대 38시간 음악 재생(통화 최대 5.5시간/25시간), IP54 방진·방수 및 직관적 탭 컨트롤 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 외이도를 전혀 막지 않는 극강의 착용감과 38시간의 넉넉한 총 배터리, 러닝·사무실·출퇴근 중 주변 상황 인지에 최적화. 단점: 오픈이어 특성상 ANC 미지원으로 지하철 등 시끄러운 환경에서는 몰입도가 떨어지며 $229의 가격대가 다소 높음."
+      }
+    ]
+  },
+  {
+    "id": "samsung-jbl-sense-pro",
+    "brand": "Samsung",
+    "name": "JBL Sense Pro (by HARMAN/Samsung)",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-01-05",
+    "release_policy": "rolling_12_months",
+    "price_usd": 199.95,
+    "price_krw_est": 279000,
+    "anc_support": false,
+    "battery_hours": "최대 8시간 (케이스 포함 최대 38시간)",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "16.2mm 대형 드라이버와 Bluetooth 6.0, Hi-Res 무선 오디오를 적용해 오픈이어의 약점인 저음을 보강한 삼성 자회사 HARMAN/JBL의 플래그십 오픈형 이어버드입니다.",
+    "source_url": "https://news.harman.com/releases/jbl-introduces-new-opensound-earbuds-designed-for-environmental-awareness-and-maximum-comfort",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "풍부한 저음 보강 오픈형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "삼성전자 자회사 HARMAN 산하 JBL이 CES 2026(2026년 1월 5일)에서 발표한 플래그십 오픈이어($199.95, 3월 발매). 16.2mm 드라이버, 적응형 베이스 부스트, Hi-Res Audio Wireless, Bluetooth 6.0, 4마이크+보이스 픽업 센서, 단독 8시간/케이스 포함 38시간(10분 급속충전 4시간) 및 무선 충전 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오픈이어 중 손꼽히는 16.2mm 드라이버의 탄탄한 저음과 Hi-Res 무선 지원, 조절 가능한 이어훅의 안정적인 고정력, Personi-Fi 3.0 맞춤 음향. 단점: 개방형 구조로 소음 차단 불가, 이어훅 형태라 안경·마스크 착용 시 간섭이 있을 수 있음."
+      }
+    ]
+  },
+  {
+    "id": "samsung-jbl-live-780nc",
+    "brand": "Samsung",
+    "name": "JBL Live 780NC (by HARMAN/Samsung)",
+    "form_factor": "over_ear",
+    "release_date": "2026-03-12",
+    "release_policy": "rolling_12_months",
+    "price_usd": 249.95,
+    "price_krw_est": 329000,
+    "anc_support": true,
+    "battery_hours": "최대 80시간 (ANC 꺼짐)",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC",
+      "LC3"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "최대 80시간의 압도적 배터리와 LDAC·Bluetooth 6.0, 스마트 ANC를 중급 가격대에 모두 담은 삼성 자회사 HARMAN/JBL의 2026년 올라운드 오버이어 헤드폰입니다.",
+    "source_url": "https://news.harman.com/releases/listen-all-day-every-way-introducing-the-new-jbl-live-headphones",
+    "sound_profile": {
+      "bass": 9,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "에너지 넘치는 베이스 강조형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "삼성전자 자회사 HARMAN 산하 JBL이 2026년 3월 12일 SXSW에서 공개·출시한 오버이어 ANC 헤드폰($249.95). 40mm 다이내믹 드라이버, Bluetooth 6.0 및 LE Audio·LDAC·멀티포인트, 적응형 ANC, Personi-Fi 3.0, 완전 접이식 설계 및 최대 80시간(ANC 꺼짐) 배터리 제공."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 충전 스트레스를 없애는 최대 80시간 배터리, Bluetooth 6.0·LDAC·LE Audio까지 지원하는 최신 스펙, 가벼워진 완전 접이식 디자인과 다양한 컬러. 단점: 기본 튜닝이 저음 위주라 플랫한 모니터링 성향 사용자에겐 EQ 조정이 필요하며 방수 등급 미지원."
+      }
+    ]
+  },
+  {
+    "id": "sony-linkbuds-clip",
+    "brand": "Sony",
+    "name": "Sony LinkBuds Clip (WF-LC900)",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-01-21",
+    "release_policy": "rolling_12_months",
+    "price_usd": 229.99,
+    "price_krw_est": 299000,
+    "anc_support": false,
+    "battery_hours": "최대 9시간 (케이스 포함 최대 37시간)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IPX4",
+    "beginner_summary": "귀 바깥에 C자형으로 가볍게 끼우고 누음 방지 모드와 10밴드 EQ까지 세밀하게 조절할 수 있는 소니의 2026년 클립형 오픈이어 이어버드입니다.",
+    "source_url": "https://www.sony.eu/presscentre/sony-unveils-linkbuds-clip-open-earbuds",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "자연스러운 개방감 밸런스형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 1월 21일 출시된 소니의 C자형 이어커프 오픈이어 TWS($229.99). 10mm 드라이버, Bluetooth 5.3 멀티포인트, DSEE 업스케일링, 360 Reality Audio, 3가지 청취 모드(표준/보이스 부스트/누음 감소), IPX4 생활방수, 단독 9시간·케이스 포함 최대 37시간(3분 충전 1시간) 배터리."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오픈이어 중 돋보이는 누음 감소 모드와 소니 Sound Connect 앱의 강력한 10밴드 EQ, 37시간의 긴 총 배터리와 커스터마이징 가능한 케이스. 단점: LDAC 미지원(SBC/AAC), 오픈형 특성상 ANC 부재 및 귀 모양에 따른 착용감 편차."
+      }
+    ]
+  },
+  {
+    "id": "sony-wf-1000xm6",
+    "brand": "Sony",
+    "name": "Sony WF-1000XM6",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-02-12",
+    "release_policy": "rolling_12_months",
+    "price_usd": 329.99,
+    "price_krw_est": 429000,
+    "anc_support": true,
+    "battery_hours": "최대 8시간 (ANC 켜짐, 케이스 포함 최대 24시간)",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC",
+      "LC3"
+    ],
+    "water_resistance": "IPX4",
+    "beginner_summary": "3배 빨라진 QN3e 프로세서와 마스터링 엔지니어 튜닝으로 업계 최상급 노이즈 캔슬링과 고해상도 사운드를 구현한 소니의 2026년 플래그십 무선 이어폰입니다.",
+    "source_url": "https://www.sony.eu/presscentre/sony-launches-wf-1000xm6-truly-wireless-earbuds-the-best-noise-cancelling-with-premium-sound",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 9,
+      "treble": 9,
+      "soundstage": 8,
+      "isolation_anc": 10,
+      "comfort": 7,
+      "signature_label": "정밀 밸런스 고해상도형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 2월 12일 출시된 소니 플래그십 ANC 이어버드($329.99). QN3e 칩셋과 유닛당 4개 마이크(전작 대비 노이즈 25% 추가 저감), 8.4mm 신형 드라이버, 32-bit 오디오 처리, LDAC·DSEE Extreme, 골전도 센서 통화, Qi 무선 충전, IPX4 방수, ANC 켜짐 기준 8시간(케이스 포함 24시간)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 중·고역대 소음까지 강하게 잡는 최상급 ANC, 정교하고 밀도 높은 마스터링급 음질과 LDAC 지원, 통기구 설계로 줄어든 이압. 단점: $329.99로 인상된 출고가, 귀가 작은 사용자에겐 다소 두툼하게 느껴질 수 있는 유닛 크기."
+      }
+    ]
+  },
+  {
+    "id": "sony-inzone-h6-air",
+    "brand": "Sony",
+    "name": "Sony INZONE H6 Air (MDR-G600)",
+    "form_factor": "over_ear",
+    "release_date": "2026-04-14",
+    "release_policy": "rolling_12_months",
+    "price_usd": 199.99,
+    "price_krw_est": 279000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [
+      "Wired 3.5mm",
+      "USB-C"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "초경량 오픈백 설계와 스튜디오급 40mm 드라이버로 장시간 게임과 음악 감상 시 탁 트인 공간감과 쾌적한 착용감을 제공하는 소니의 유선 오버이어 헤드셋입니다.",
+    "source_url": "https://electronics.sony.com/audio/gaming-audio/inzone-headsets/p/mdrg600-b",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 9,
+      "soundstage": 10,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "초광대역 오픈백 정위감형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 4월 14일 발표된 소니 INZONE 시리즈의 유선 오픈백 오버이어 헤드셋($199.99). 40mm HD 스튜디오급 드라이버, 3.5mm 아날로그 및 USB-C 유선 연결(배터리 불필요), INZONE Hub PC 소프트웨어 공간음향 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오픈백 특유의 넓고 정확한 스테이징과 발소리·악기 정위감, 매우 가벼운 무게와 통풍이 잘되는 쾌적한 장시간 착용감, 충전 걱정 없는 유선 지연제로 연결. 단점: 무선(Bluetooth/2.4GHz) 및 ANC 미지원, 오픈백 구조상 소리 누음과 외부 소음 유입이 큼."
+      }
+    ]
+  },
+  {
+    "id": "sony-wh-1000xm4c",
+    "brand": "Sony",
+    "name": "Sony WH-1000XM4C",
+    "form_factor": "over_ear",
+    "release_date": "2026-09-07",
+    "release_policy": "rolling_12_months",
+    "price_usd": 299.99,
+    "price_krw_est": 399000,
+    "anc_support": true,
+    "battery_hours": "최대 27시간 (ANC 켜짐, 꺼짐 시 최대 34시간)",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "명기 WH-1000XM4의 접이식 디자인과 음악적인 사운드에 Bluetooth 6.0을 더해 합리적인 중상급 가격으로 부활시킨 소니의 2026년 클래식 ANC 헤드폰입니다.",
+    "source_url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4c-b",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 9,
+      "comfort": 9,
+      "signature_label": "따뜻하고 음악적인 올라운드형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 7일 IFA 2026에서 공개된 WH-1000XM4의 2026년 리뉴얼 모델($299.99). 40mm 드라이버, QN1 프로세서, Bluetooth 6.0, SBC·AAC·LDAC 코덱 및 멀티포인트 지원. ANC 켜짐 기준 최대 27시간(꺼짐 시 최대 34시간) 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 검증된 접이식 휴대성과 편안한 착용감, $299.99 중상급 가격대에서 여전히 탁월한 ANC와 음악적인 다이내믹 사운드. 단점: 오리지널 XM4(30h/38h) 대비 소폭 줄어든 배터리 시간, LDAC 사용 시 멀티포인트 동시 사용 불가."
+      }
+    ]
+  },
+  {
+    "id": "sony-wh-ch730n",
+    "brand": "Sony",
+    "name": "Sony WH-CH730N",
+    "form_factor": "over_ear",
+    "release_date": "2026-09-07",
+    "release_policy": "rolling_12_months",
+    "price_usd": 179.99,
+    "price_krw_est": 229000,
+    "anc_support": true,
+    "battery_hours": "최대 50시간 (ANC 켜짐, 꺼짐 시 최대 75시간)",
+    "codecs": [
+      "AAC",
+      "SBC",
+      "LC3"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "207g의 초경량 접이식 바디에 ANC 켜짐 50시간(꺼짐 75시간)의 괴물 배터리를 담은 2026년 최고의 가성비 입문용 노이즈 캔슬링 헤드폰입니다.",
+    "source_url": "https://www.sony.co.uk/presscentre/sony-introduces-wh-1000xm4c-wireless-noise-cancelling-headphones-and-updates-popular-mid-and-entry-level-wireless-headphones-with-wh-ch730n-and-wh-ch530",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 9,
+      "signature_label": "명료하고 경쾌한 밸런스형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 7일 출시된 소니 중급형 ANC 오버이어 헤드폰($179.99). 207g 경량 접이식 설계, Bluetooth 6.0·LE Audio(LC3)·멀티포인트, DSEE 음질 보정, 360 Reality Audio, ANC 켜짐 최대 50시간·꺼짐 최대 75시간 재생(3분 급속 충전 약 1시간)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 전작과 달리 접이식 설계 도입으로 휴대성 대폭 개선, 동급 최고 수준의 50~75시간 배터리, 가격대를 뛰어넘는 명료하고 자연스러운 음질. 단점: LDAC 고해상도 코덱 미지원, 플라스틱 위주의 외장 마감."
+      }
+    ]
+  },
+  {
+    "id": "bose-quietcomfort-headphones-2nd-gen",
+    "brand": "Bose",
+    "name": "Bose QuietComfort Headphones (2nd Gen)",
+    "form_factor": "over_ear",
+    "release_date": "2026-08-06",
+    "release_policy": "rolling_12_months",
+    "price_usd": 359.0,
+    "price_krw_est": 499000,
+    "anc_support": true,
+    "battery_hours": "최대 24시간 (ANC 켜짐)",
+    "codecs": [
+      "AAC",
+      "SBC",
+      "USB-C Lossless"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "보스 특유의 구름 같은 착용감과 6마이크 강력 ANC에 USB-C 무손실 오디오까지 더한 2026년형 아이코닉 오버이어 헤드폰입니다.",
+    "source_url": "https://www.bose.com/pressroom/bose-updates-the-iconic-quietcomfort-headphones",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 10,
+      "comfort": 10,
+      "signature_label": "부드러운 몰입형 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 8월 6일 발표된 Bose QuietComfort 2세대 오버이어 헤드폰($359). 6개 마이크 기반 액티브 노이즈 캔슬링, USB-C 유선 무손실 오디오, Immersive Audio 지원, ANC 켜짐 기준 최대 24시간(Immersive Audio 켜짐 시 18시간) 배터리."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 장시간 비행·업무에도 피로도가 적은 최상급 착용감, 탁월한 저역대 소음 차단(ANC), USB-C 무손실 연결 지원. 단점: $359 정가는 상위 Ultra 모델 할인 가격과 겹쳐 가성비 고민이 생기며, 경쟁작 대비 24시간 배터리는 평범한 수준."
+      }
+    ]
+  },
+  {
+    "id": "bose-sport-open-earbuds",
+    "brand": "Bose",
+    "name": "Bose Sport Open Earbuds",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-09-17",
+    "release_policy": "rolling_12_months",
+    "price_usd": 199.0,
+    "price_krw_est": 279000,
+    "anc_support": false,
+    "battery_hours": "최대 9시간",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "러닝과 아웃도어 운동 시 땀과 먼지를 막아주는 IP54 방진·방수와 흔들림 없는 실리콘 핏, 물리 버튼을 갖춘 보스의 스포츠 특화 오픈이어 이어버드입니다.",
+    "source_url": "https://www.bose.com/p/earbuds/bose-open-earbuds/SPORTOPN26-HEADPHONEOPN.html",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "활동적인 오픈형 펀치 사운드"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 17일 발표(10월 1일 출시)된 러닝·피트니스 전용 오픈이어 이어버드($199). Bose OpenAudio 기술, 부드러운 실리콘 고정 구조, 땀에 젖어도 오작동 없는 텍스처 물리 버튼, IP54 방진·방수, 최대 9시간 재생 및 5가지 컬러 옵션."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 격렬한 러닝 중에도 안정적인 고정력과 IP54 방진·방수, 장갑이나 땀에도 정확한 물리 버튼 조작, 차량 소리를 놓치지 않는 안전성. 단점: ANC 미지원, 고해상도 코덱(aptX Adaptive 등)은 상위 Ultra Open 2세대에만 제공."
+      }
+    ]
+  },
+  {
+    "id": "bose-ultra-open-earbuds-2nd-gen",
+    "brand": "Bose",
+    "name": "Bose Ultra Open Earbuds (2nd Gen)",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-09-17",
+    "release_policy": "rolling_12_months",
+    "price_usd": 299.0,
+    "price_krw_est": 419000,
+    "anc_support": false,
+    "battery_hours": "최대 9시간",
+    "codecs": [
+      "aptX Adaptive",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IPX4",
+    "beginner_summary": "보스가 개척한 이어커프 오픈형 디자인에 aptX Adaptive 고음질, 9시간 배터리, 개선된 통화 품질을 결합한 플래그십 데일리 오픈이어 이어버드입니다.",
+    "source_url": "https://www.bose.com/p/earbuds/bose-ultra-open-earbuds-2nd-gen/ULT2-HEADPHONEOPN.html",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 9,
+      "isolation_anc": 2,
+      "comfort": 10,
+      "signature_label": "입체적 공간감 오픈형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 17일 발표(10월 1일 출시)된 2세대 플래그십 이어커프 오픈이어($299). Bose OpenAudio 및 Immersive Audio, aptX Adaptive 코덱 추가, 전작 대비 늘어난 최대 9시간 연속 재생, 개선된 통화 명료도 및 무선 충전 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 액세서리처럼 자연스럽고 하루 종일 착용해도 부담 없는 커프 핏, 오픈이어 중 최상위권의 풍성한 사운드와 aptX Adaptive 지원, 9시간으로 늘어난 배터리. 단점: $299의 높은 가격, 구조상 ANC 미지원으로 시끄러운 대중교통에서는 음량이 묻힐 수 있음."
+      }
+    ]
+  },
+  {
+    "id": "bose-noise-cancelling-wired-earbuds",
+    "brand": "Bose",
+    "name": "Bose Noise Cancelling Wired Earbuds",
+    "form_factor": "wired_iem",
+    "release_date": "2026-09-28",
+    "release_policy": "rolling_12_months",
+    "price_usd": 99.0,
+    "price_krw_est": 139000,
+    "anc_support": true,
+    "battery_hours": null,
+    "codecs": [
+      "USB-C Digital Audio"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "충전과 블루투스 페어링 없이 USB-C에 꽂기만 하면 즉시 보스 노이즈 캔슬링을 사용할 수 있는 11년 만의 신형 유선 ANC 이어폰입니다.",
+    "source_url": "https://www.bose.com/pressroom/bose-unveils-new-noise-cancelling-wired-earbuds",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "안정적 밸런스 유선 ANC형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 9월 28일 발표된 Bose의 USB-C 유선 액티브 노이즈 캔슬링 이어폰($99). 내장 배터리 없이 연결 기기의 USB-C 전원으로 ANC를 구동하며, 별도 앱 설치나 블루투스 페어링 없이 플러그 앤 플레이로 즉시 사용 가능."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 배터리 충전과 지연 시간 걱정 없는 초간편 USB-C 직결, $99의 부담 없는 가격에 보스 특유의 탄탄한 ANC 제공, 비행·업무용 서브 이어폰으로 최적. 단점: 유선 케이블의 이동 제약, 전용 앱 EQ 커스터마이징 및 방수 등급 미지원."
+      }
+    ]
+  },
+  {
+    "id": "bose-skullcandy-crusher-1080-anc",
+    "brand": "Bose",
+    "name": "Skullcandy Crusher 1080 ANC (Sound by Bose)",
+    "form_factor": "over_ear",
+    "release_date": "2026-07-15",
+    "release_policy": "rolling_12_months",
+    "price_usd": 279.99,
+    "price_krw_est": 389000,
+    "anc_support": true,
+    "battery_hours": "최대 60시간 (ANC 꺼짐)",
+    "codecs": [
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "강도 조절이 가능한 햅틱 극저음에 Bose QuietControl ANC와 TrueSpatial 음향을 결합한 Bose 인수 자회사 Skullcandy의 2026년 베이스 특화 헤드폰입니다.",
+    "source_url": "https://www.skullcandy.com/products/crusher-1080-anc-headphones",
+    "sound_profile": {
+      "bass": 10,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "극저음 햅틱 진동형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 7월 15일 출시(Bose가 2026년 10월 21일 공식 인수한 자회사 Skullcandy 모델, $279.99). 특허 조절식 Crusher 햅틱 베이스, Sound by Bose 튜닝, Bose QuietControl ANC, Bose TrueSpatial 머리 추적 음향, Bose SpeechClarity 통화, Bluetooth 5.3, 최대 60시간 배터리(10분 충전 4시간)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 영화·EDM·힙합에서 타의 추종을 불허하는 조절식 진동 저음, 보스 기술이 직접 적용된 강력한 ANC와 공간 음향, 60시간의 넉넉한 배터리. 단점: 374.2g의 다소 묵직한 무게, 원음 그대로의 플랫한 사운드를 선호하는 클래식 청취자에겐 과할 수 있는 저음 성향."
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-cx-80u",
+    "brand": "Sennheiser",
+    "name": "Sennheiser CX 80U",
+    "form_factor": "wired_iem",
+    "release_date": "2026-01-26",
+    "release_policy": "rolling_12_months",
+    "price_usd": 39.95,
+    "price_krw_est": 59000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [
+      "USB-C Lossless (24-bit/96kHz)"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "5만 원대 부담 없는 가격으로 24-bit/96kHz USB-C 무손실 오디오와 젠하이저 특유의 균형 잡힌 사운드에 입문할 수 있는 유선 인이어 이어폰입니다.",
+    "source_url": "https://newsroom.sennheiser.com/signature-sound-and-simplicity",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 6,
+      "isolation_anc": 6,
+      "comfort": 8,
+      "signature_label": "입문용 균형 밸런스형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 1월 26일 출시된 인기작 CX 80S의 USB-C 업그레이드 모델($39.95). 24-bit/96kHz 무손실 디지털 오디오 직결, 저노이즈 MEMS 마이크 내장, iOS·Android·Windows·macOS·SteamOS 플러그 앤 플레이 호환, 3가지 사이즈 이어팁 제공."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: $39.95의 합리적인 가격에 24-bit/96kHz USB-C 무손실 재생과 지연 없는 연결, 배터리 관리 불필요, 가볍고 깔끔한 보컬 전달력. 단점: ANC 및 방수 등급 미지원, 케이블 교체 불가 고정형 구조."
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-hd-400u",
+    "brand": "Sennheiser",
+    "name": "Sennheiser HD 400U",
+    "form_factor": "over_ear",
+    "release_date": "2026-01-26",
+    "release_policy": "rolling_12_months",
+    "price_usd": 99.95,
+    "price_krw_est": 139000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [
+      "USB-C Lossless (24-bit/96kHz)"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "USB-C 케이블 하나로 스마트폰과 노트북에 바로 연결해 탄탄한 저음과 뛰어난 패시브 차음으로 집중 청취할 수 있는 입문용 밀폐형 유선 헤드폰입니다.",
+    "source_url": "https://newsroom.sennheiser.com/signature-sound-and-simplicity",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 7,
+      "comfort": 8,
+      "signature_label": "탄탄한 저음 밀폐형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 1월 26일 출시된 HD 400S의 USB-C 버전($99.95). 24-bit/96kHz 디지털 오디오 재생, 밀폐형 오버이어 구조의 우수한 패시브 차음, 탈착식 USB-C 케이블과 휴대용 파우치, MEMS 마이크 기본 탑재."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 10만 원 초반대에 24-bit/96kHz USB-C 무손실 연결과 휴대하기 좋은 접이식·탈착식 케이블 구성, 공부·재택근무에 적합한 안정적 차음성. 단점: 블루투스 무선 기능 및 ANC 미지원, 오픈백 헤드폰 대비 좁은 스테이징."
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-momentum-5-wireless",
+    "brand": "Sennheiser",
+    "name": "Sennheiser MOMENTUM 5 Wireless",
+    "form_factor": "over_ear",
+    "release_date": "2026-05-26",
+    "release_policy": "rolling_12_months",
+    "price_usd": 399.99,
+    "price_krw_est": 559000,
+    "anc_support": true,
+    "battery_hours": "최대 57시간 (ANC 켜짐)",
+    "codecs": [
+      "aptX Lossless",
+      "aptX Adaptive",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "최대 57시간의 ANC 배터리, 사용자 교체 가능 배터리 설계, 3배 강화된 ANC와 Dolby Atmos까지 갖춘 젠하이저의 2026년 플래그십 무선 헤드폰입니다.",
+    "source_url": "https://newsroom.sennheiser.com/introducing-momentum-5-wireless-your-sound-revelation-starts-here",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 9,
+      "treble": 9,
+      "soundstage": 9,
+      "isolation_anc": 9,
+      "comfort": 9,
+      "signature_label": "풍부한 오디오파일 밸런스형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 5월 26일 발표(6월 16일 미국 출시)된 젠하이저 플래그십 오버이어 헤드폰($399.99). ANC 켜짐 기준 최대 57시간 재생, 친환경 교체형 배터리 설계, Snapdragon Sound(aptX Lossless·aptX Adaptive), Dolby Atmos 머리 추적 공간음향, Smart Control Plus 앱 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 젠하이저 특유의 깊고 풍부한 해상도와 57시간의 초장시간 ANC 배터리, 전작 대비 대폭 강화된 노이즈 캔슬링, 장기 사용에 유리한 교체형 배터리. 단점: 전작(MOMENTUM 4) 대비 인상된 가격($399.99), 공식 방수 등급 미지원."
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-accentum-clip",
+    "brand": "Sennheiser",
+    "name": "Sennheiser ACCENTUM Clip",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-06-18",
+    "release_policy": "rolling_12_months",
+    "price_usd": 189.95,
+    "price_krw_est": 259000,
+    "anc_support": false,
+    "battery_hours": "최대 9시간 (케이스 포함 최대 36시간)",
+    "codecs": [
+      "LDAC",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "유닛당 6.8g의 가벼운 클립 디자인에 12mm 드라이버와 LDAC 고음질, Bluetooth 6.0까지 담아낸 젠하이저 최초의 오픈이어 클립형 무선 이어버드입니다.",
+    "source_url": "https://newsroom.sennheiser.com/accentum-clip-music-and-life-in-perfect-sync",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "맑고 자연스러운 오픈형 하이파이"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 6월 18일 발표된 젠하이저의 오픈이어 클립형 TWS(약 $189.95 / €179). Hi-Res Audio Wireless 인증, 12mm 다이내믹 드라이버, 저볼륨 음색 보정 Dynamic EQ, Bluetooth 6.0, LDAC·AAC·SBC, IP54 방진·방수, 유닛당 6.8g, 단독 9시간·케이스 포함 최대 36시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오픈이어 클립 제품 중 드문 LDAC 고음질 및 Bluetooth 6.0 지원, Dynamic EQ 덕분에 낮은 볼륨에서도 선명한 사운드, IP54 내구성과 36시간 배터리. 단점: 오픈형 구조로 ANC 미지원, 지역별 출시 일정이 순차적으로 진행되어 초기 구매 접근성 차이 존재."
+      }
+    ]
+  },
+  {
+    "id": "sennheiser-momentum-true-wireless-5",
+    "brand": "Sennheiser",
+    "name": "Sennheiser MOMENTUM True Wireless 5",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-08-20",
+    "release_policy": "rolling_12_months",
+    "price_usd": 299.95,
+    "price_krw_est": 419000,
+    "anc_support": true,
+    "battery_hours": "최대 12시간 (케이스 포함 최대 40시간)",
+    "codecs": [
+      "aptX Lossless",
+      "aptX Adaptive",
+      "AAC",
+      "SBC"
+    ],
+    "water_resistance": "IP54",
+    "beginner_summary": "단독 12시간(총 40시간)의 경이로운 배터리와 사용자 교체 가능 배터리, aptX Lossless 무손실 음질을 모두 갖춘 젠하이저의 2026년 플래그십 커널형 이어버드입니다.",
+    "source_url": "https://newsroom.sennheiser.com/introducing-sennheiser-momentum-true-wireless-5-the-flagship-momentum-experience-in-your-pocket",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 9,
+      "treble": 9,
+      "soundstage": 9,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "정교한 하이파이 레퍼런스형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "2026년 8월 20일 발표된 젠하이저 플래그십 커널형 TWS($299.95). 신형 하이브리드 ANC, Bluetooth 6.0, Snapdragon Sound(aptX Lossless), Dolby Atmos 머리 추적 공간음향, 이어버드·케이스 모두 사용자 교체형 배터리 적용, IP54 방진·방수, 단독 최대 12시간·케이스 포함 최대 40시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 플래그십 TWS 중 독보적인 12h/40h 배터리와 수명 연장이 가능한 교체형 배터리, aptX Lossless 기반의 최상급 해상도, 슬림해진 포켓 케이스와 8밴드 EQ. 단점: $299.95의 프리미엄 가격대, aptX Lossless 최대 성능 활용을 위해서는 Snapdragon Sound 지원 안드로이드 기기 필요."
+      }
+    ]
+  },
+  {
+    "id": "anker-soundcore-aerofit-2-pro",
+    "brand": "Anker",
+    "name": "Soundcore AeroFit 2 Pro",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-01-07",
+    "release_policy": "rolling_12_months",
+    "price_usd": 179.99,
+    "price_krw_est": 259000,
+    "anc_support": true,
+    "battery_hours": "오픈이어 7시간(케이스 포함 34시간) / ANC 5시간(케이스 포함 24시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IP55",
+    "beginner_summary": "이어훅 각도 조절만으로 오픈이어와 세미 인이어 ANC 모드를 오가는 2-in-1 하이브리드 이어폰입니다.",
+    "source_url": "https://www.soundcore.com/products/a3875-aerofit-2-pro-open-ear-earbuds-with-anc",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 6,
+      "comfort": 9,
+      "signature_label": "입체적 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "11.8mm 복합 진동판 드라이버, 블루투스 6.1, LDAC 및 헤드 트래킹 공간 음향, Adaptive ANC 3.0(6센서), IP55 방수방진, 유닛당 10.4g, 무선 충전 및 10분 급속 충전 3.5시간 재생 지원."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 운동 시 오픈이어로 주변음을 확보하고 출퇴근 시 세미 인이어 ANC로 전환 가능, LDAC 지원과 쾌적한 착용감. 단점: 완전 밀폐형 인이어 대비 극저역 차음은 제한적이며 유닛 무게(10.4g)가 일반 TWS보다 다소 묵직함."
+      }
+    ]
+  },
+  {
+    "id": "anker-soundcore-liberty-5-pro",
+    "brand": "Anker",
+    "name": "Soundcore Liberty 5 Pro",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-05-25",
+    "release_policy": "rolling_12_months",
+    "price_usd": 169.99,
+    "price_krw_est": 239000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 6.5시간(케이스 포함 28시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IP55",
+    "beginner_summary": "전용 AI 칩셋과 0.96인치 스마트 케이스를 탑재해 통화 품질과 노이즈 캔슬링을 극대화한 플래그십 무선 이어폰입니다.",
+    "source_url": "https://www.soundcore.com/products/d1203-liberty-5-pro-anc-earbuds-clear-calls",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "선명한 올라운더"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "9.2mm 울-페이퍼 진동판 드라이버, Anker Thus AI 칩셋, Adaptive ANC 4.0(8센서, 초당 38.4만 회 연산), 8마이크+2 VPU 통화 시스템, 블루투스 6.1, LDAC/AAC/SBC, 3기기 멀티포인트, IP55, 5분 충전 4시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 기네스 세계기록 인증(2026년 4월) 수준의 탁월한 통화 품질과 강력한 적응형 ANC, HearID 5.0 맞춤 음향, 스마트 디스플레이 케이스. 단점: 오프라인 음성 명령은 영어·독일어·일본어·중국어 중심으로 지원됨."
+      }
+    ]
+  },
+  {
+    "id": "anker-soundcore-space-2-pro",
+    "brand": "Anker",
+    "name": "Soundcore Space 2 Pro",
+    "form_factor": "over_ear",
+    "release_date": "2026-09-22",
+    "release_policy": "rolling_12_months",
+    "price_usd": 199.99,
+    "price_krw_est": 289000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 최대 30시간 / ANC OFF 최대 60시간",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "합리적인 가격대에 8마이크 적응형 ANC와 전용 AI 통화 분리 기능을 담은 차세대 오버이어 헤드폰입니다.",
+    "source_url": "https://www.soundcore.com/products/d1406-space-2-pro-over-ear-headphones-for-clear-calls",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "풍부한 올라운더"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "35mm 리지드-플렉스 듀얼 소재 진동판 드라이버, THUS AI 오디오 칩셋, 8마이크 384kHz 적응형 ANC, 6마이크 100dB 소음 환경 음성 분리, 블루투스 6.1, LDAC, HearID 5.0, 공간 음향, 메모리폼 이어쿠션."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 200달러 미만 가격대에서 LDAC·최신 블루투스 6.1·강력한 AI 통화 분리와 적응형 ANC를 모두 제공. 단점: ANC 켜짐 기준 30시간 배터리는 동급 일부 장시간 특화 모델 대비 평이한 편이며 방수 등급 미지원."
+      }
+    ]
+  },
+  {
+    "id": "anker-soundcore-aeroclip-2",
+    "brand": "Anker",
+    "name": "Soundcore AeroClip 2",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-09-22",
+    "release_policy": "rolling_12_months",
+    "price_usd": 169.99,
+    "price_krw_est": 239000,
+    "anc_support": false,
+    "battery_hours": "최대 8시간(케이스 포함 32시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IP57",
+    "beginner_summary": "귀를 막지 않는 C-브리지 이어커프 디자인에 IP57 방수와 AI 실시간 번역·선명한 통화를 더한 클립형 이어폰입니다.",
+    "source_url": "https://www.soundcore.com/products/d1105-aeroclip-2-clip-on-earbuds-with-clearest-calls",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "자연스러운 보컬"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "12mm 다이내믹 드라이버, THUS AI 오디오 칩셋, 블루투스 6.0, LDAC 지원, IP57 방수방진, 2,000명 귀 형태 데이터 기반 인체공학 C-브리지, 애플 MFi 인증 원탭 AI 번역, 10분 급속 충전 4시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 장시간 착용해도 귀 압박이 거의 없고 IP57 등급으로 운동·우천 대응력이 높으며 클립형 중 드물게 LDAC를 지원. 단점: 개방형 구조 특성상 지하철 등 극심한 소음 환경에서는 외부 소리가 유입됨."
+      }
+    ]
+  },
+  {
+    "id": "anker-soundcore-liberty-buds-2",
+    "brand": "Anker",
+    "name": "Soundcore Liberty Buds 2",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-09-22",
+    "release_policy": "rolling_12_months",
+    "price_usd": 129.99,
+    "price_krw_est": 189000,
+    "anc_support": true,
+    "battery_hours": "최대 7~12시간 (모드별 상이)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IP57",
+    "beginner_summary": "가벼운 4.6g 착용감과 TÜV 인증 컴포트 ANC, 전용 AI 통화 칩셋을 합리적인 가격에 담은 데일리 이어폰입니다.",
+    "source_url": "https://www.soundcore.com/products/d1206-liberty-buds-2-ai-powered-in-ear-earbuds-for-calls",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 9,
+      "signature_label": "편안한 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "THUS AI 오디오 칩셋, 8센서·2 VPU 통화 처리 시스템, 6마이크 ANC 및 이압 저감 Comfort ANC 모드, TÜV 착용감 인증, 블루투스 6.1, LDAC, IP57 방수방진, 유닛당 4.6g."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 4.6g 초경량 설계와 Comfort ANC로 장시간 착용 부담이 적고 IP57 내구성과 LDAC를 모두 갖춤. 단점: 상위 모델인 Liberty 5 Pro 대비 스마트 케이스 디스플레이 등 부가 기능은 생략됨."
+      }
+    ]
+  },
+  {
+    "id": "qcy-melobuds-a30",
+    "brand": "QCY",
+    "name": "QCY MeloBuds A30",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-06-07",
+    "release_policy": "rolling_12_months",
+    "price_usd": 34.99,
+    "price_krw_est": 49000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 6시간(케이스 포함 27시간) / ANC OFF 11시간(케이스 포함 50시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IPX5",
+    "beginner_summary": "5만 원 미만 가격에 최대 60dB 적응형 ANC, LDAC, 3기기 멀티포인트를 갖춘 초가성비 입문용 무선 이어폰입니다.",
+    "source_url": "https://www.qcy.com/products/melobuds-a30",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 6,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "펀사운드 V자형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "최대 -60dB(5.5kHz 대역) PureSilenz AI 적응형 ANC, 8마이크 통화 노이즈 캔슬링, 블루투스 6.0, Hi-Res LDAC 지원, 3기기 동시 연결, IPX5 방수, 최대 50시간 배터리."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 가격 대비 압도적인 스펙(60dB ANC, LDAC, 블루투스 6.0, 긴 배터리)과 3기기 멀티포인트 편의성. 단점: 저가형 특성상 펌웨어 완성도와 소음 환경 통화 품질에서 편차가 보고됨."
+      }
+    ]
+  },
+  {
+    "id": "qcy-melobuds-n65",
+    "brand": "QCY",
+    "name": "QCY MeloBuds N65",
+    "form_factor": "tws_in_ear",
+    "release_date": "2026-06-27",
+    "release_policy": "rolling_12_months",
+    "price_usd": 40.79,
+    "price_krw_est": 55000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 6.5시간(케이스 포함 26시간) / ANC OFF 11시간(케이스 포함 50시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IPX5",
+    "beginner_summary": "IMU 센서 기반 헤드 트래킹 공간 음향과 고개 제스처 제어까지 담은 QCY의 2026년형 다기능 가성비 ANC 이어폰입니다.",
+    "source_url": "https://www.qcy.com/products/melobuds-n65",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "박진감 있는 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "최대 -60dB(5.5kHz) AI 장면·풍절음 적응형 ANC, 8마이크 통화, IMU 센서 기반 공간 음향 및 고개 끄덕임/흔들기 제스처, 블루투스 6.0, LDAC, 3기기 멀티포인트, IPX5, 5종 이어팁 기본 제공."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 5만 원대 가격에 헤드 트래킹 공간 음향·제스처 제어·LDAC·60dB ANC를 모두 제공하며 지문 방지 엑시머 코팅 마감 우수. 단점: 멀티포인트 활성화 시 LDAC가 비활성화되며 마이크 음질이 다소 인위적이라는 평가가 있음."
+      }
+    ]
+  },
+  {
+    "id": "qcy-h6-ultra",
+    "brand": "QCY",
+    "name": "QCY H6 Ultra",
+    "form_factor": "over_ear",
+    "release_date": "2026-08-25",
+    "release_policy": "rolling_12_months",
+    "price_usd": 89.99,
+    "price_krw_est": 119000,
+    "anc_support": true,
+    "battery_hours": "최대 100시간 (ANC OFF 기준)",
+    "codecs": [
+      "SBC",
+      "LDAC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "40mm+13mm 듀얼 드라이버와 60dB ANC, 100시간 배터리를 10만 원 초반대에 구현한 QCY 플래그십 헤드폰입니다.",
+    "source_url": "https://www.qcy.com/products/qcy-h6-ultra",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "화려한 하이파이"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "40mm 중저역 + 13mm 고역 듀얼 드라이버(20Hz-40kHz), 10마이크 배열 및 최대 60dB PureSilenz 적응형 ANC, ClearVoice DNN 통화, 6축 자이로 공간 음향, 블루투스 6.0, LDAC/유선 Hi-Res 인증, 271g, 최대 100시간 재생(10분 충전 7시간)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 동급 최고 수준의 듀얼 드라이버 해상력과 강력한 ANC, 100시간 배터리 및 271g 경량 설계. 단점: 착용 감지(자동 일시정지) 기능과 전용 하드 케이스가 기본 제공되지 않음."
+      }
+    ]
+  },
+  {
+    "id": "qcy-h6-neo",
+    "brand": "QCY",
+    "name": "QCY H6 Neo",
+    "form_factor": "over_ear",
+    "release_date": "2026-09-29",
+    "release_policy": "rolling_12_months",
+    "price_usd": 52.99,
+    "price_krw_est": 75000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 61시간 / ANC OFF 96시간",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "245g 초경량 무게에 52dB 하이브리드 ANC와 최대 96시간 배터리를 담은 실속형 오버이어 헤드폰입니다.",
+    "source_url": "https://www.qcy.com/products/qcy-h6-neo",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 7,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 9,
+      "signature_label": "풍성한 저음형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "40mm 그래핀 코팅 다이내믹 드라이버, 최대 52dB PureSilenz 적응형 하이브리드 ANC, 5마이크 배열 및 AI DNN 3마이크 ENC 통화, 블루투스 6.0, LDAC/AAC/SBC, 60ms 저지연, 245g 접이식, ANC ON 61시간 / OFF 96시간."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 245g의 가벼운 무게로 장시간 착용이 편안하고 7만 원대 가격에 LDAC·52dB ANC·61~96시간 배터리를 제공. 단점: 3.5mm 아날로그 단자 없이 USB-C 오디오 인터페이스만 지원하며 마감은 엔트리급 수준."
+      }
+    ]
+  },
+  {
+    "id": "qcy-crossky-c70",
+    "brand": "QCY",
+    "name": "QCY Crossky C70",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-10-05",
+    "release_policy": "rolling_12_months",
+    "price_usd": 69.99,
+    "price_krw_est": 99000,
+    "anc_support": false,
+    "battery_hours": "최대 10시간(케이스 포함 50시간)",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "LDAC"
+    ],
+    "water_resistance": "IPX6",
+    "beginner_summary": "듀얼 드라이버와 LDAC, IPX6 방수, 50시간 배터리를 10만 원 이하에 제공하는 고성능 클립형 오픈이어 이어폰입니다.",
+    "source_url": "https://www.qcy.com/products/qcy-crossky-c70-open-ear-clip-on-earbuds",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 7,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "시원한 오픈 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "듀얼 드라이버 Hi-Res 오디오, 블루투스 6.0, LDAC 지원, 듀얼 마이크 + VPU 골전도 센서(54dB ENC 통화), 대화 감지, 프라이버시 모드, 3기기 멀티포인트, IPX6 방수, 단일 10시간/총 50시간 재생."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 클립형 중 드문 듀얼 드라이버+LDAC 조합과 IPX6 방수, 50시간 장시간 배터리, VPU 센서 기반 통화 품질. 단점: 오픈이어 특성상 외부 소음 차단이 불가능해 조용한 실내나 야외 러닝에 더 적합."
+      }
+    ]
+  },
+  {
+    "id": "shokz-openfit-pro",
+    "brand": "Shokz",
+    "name": "Shokz OpenFit Pro",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-01-06",
+    "release_policy": "rolling_12_months",
+    "price_usd": 249.95,
+    "price_krw_est": 349000,
+    "anc_support": true,
+    "battery_hours": "노이즈 리덕션 OFF 12시간(케이스 포함 50시간) / ON 6시간(케이스 포함 24시간)",
+    "codecs": [
+      "SBC",
+      "AAC"
+    ],
+    "water_resistance": "IP55",
+    "beginner_summary": "귀를 막지 않으면서도 주변 소음을 줄여주는 오픈이어 노이즈 리덕션과 초대형 드라이버를 탑재한 샥즈 최상위 이어폰입니다.",
+    "source_url": "https://shokz.com/products/openfit-pro",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 9,
+      "isolation_anc": 5,
+      "comfort": 9,
+      "signature_label": "풍부한 오픈 하이파이"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "11×20mm 동기화 듀얼 진동판 드라이버, Shokz SuperBoost 및 OpenBass 2.0, DirectPitch 3.0, 돌비 애트모스(헤드 트래킹), TÜV 인증 오픈이어 노이즈 리덕션, 블루투스 6.1, IP55, 무선 충전, 물리 버튼, 유닛당 12.3g."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 오픈이어 중 최상급 저음과 음장, 실외 도로·사무실 소음을 체감할 만큼 줄이는 오픈이어 노이즈 리덕션, 12시간/50시간 배터리. 단점: LDAC/aptX 미지원(SBC/AAC만 지원)이며 12.3g으로 무게와 가격이 높은 편."
+      }
+    ]
+  },
+  {
+    "id": "shokz-opendots-2",
+    "brand": "Shokz",
+    "name": "Shokz OpenDots 2",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-06-04",
+    "release_policy": "rolling_12_months",
+    "price_usd": 139.95,
+    "price_krw_est": 199000,
+    "anc_support": false,
+    "battery_hours": "최대 10시간(케이스 포함 40시간)",
+    "codecs": [
+      "SBC",
+      "AAC"
+    ],
+    "water_resistance": "IP57 (이어버드) / IP54 (케이스)",
+    "beginner_summary": "6.4g 초경량 클립형 디자인에 듀얼 11.8mm 드라이버, 골전도 통화 마이크, IP57 방수를 갖춘 샥즈 플래그십 이어커프입니다.",
+    "source_url": "https://shokz.com/products/opendots-2",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "명료한 데일리 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "Bassphere 2.0(듀얼 11.8mm 커스텀 드라이버), DirectPitch + MirrorPitch 누음 방지, 돌비 오디오, 트리플 AI 마이크(공기전도 2 + 골전도 1), 블루투스 6.1, 좌우 자동 인식, IP57 이어버드/IP54 케이스, Qi 무선충전, 5분 충전 2시간."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 좌우 구분 없이 끼우는 편의성과 안경 착용 시에도 편안한 6.4g 착용감, IP57 방수, 선명한 통화 품질. 단점: 고해상도 코덱(LDAC/aptX)을 지원하지 않으며 중상역이 다소 강조된 기본 튜닝."
+      }
+    ]
+  },
+  {
+    "id": "shokz-opendots-air",
+    "brand": "Shokz",
+    "name": "Shokz OpenDots Air",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-06-04",
+    "release_policy": "rolling_12_months",
+    "price_usd": 89.95,
+    "price_krw_est": 129000,
+    "anc_support": false,
+    "battery_hours": "최대 9시간(케이스 포함 36시간)",
+    "codecs": [
+      "SBC",
+      "AAC"
+    ],
+    "water_resistance": "IP55",
+    "beginner_summary": "6.3g의 시리즈 최경량 무게와 세련된 컬러로 일상 내내 가볍게 착용하기 좋은 샥즈 입문형 클립 이어폰입니다.",
+    "source_url": "https://shokz.com/products/opendots-air",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 2,
+      "comfort": 10,
+      "signature_label": "가벼운 데일리 보컬"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "Bassphere 및 DirectPitch 음향 기술, 니켈-티타늄 JointArc 프레임, 듀얼 AI 빔포밍 마이크, 블루투스 6.1, 좌우 자동 인식, 멀티포인트, IP55 방수, 유닛당 6.3g, 단일 9시간/총 36시간 재생(USB-C 충전)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: OpenDots 시리즈 중 가장 가벼운 6.3g 착용감과 합리적인 가격, 자연스러운 보컬 전달력. 단점: 상위 모델 OpenDots 2 대비 무선 충전·돌비 오디오·골전도 통화 마이크가 제외됨."
+      }
+    ]
+  },
+  {
+    "id": "shokz-openrun-air-2",
+    "brand": "Shokz",
+    "name": "Shokz OpenRun Air 2",
+    "form_factor": "bone_conduction",
+    "release_date": "2026-08-27",
+    "release_policy": "rolling_12_months",
+    "price_usd": 129.95,
+    "price_krw_est": 185000,
+    "anc_support": false,
+    "battery_hours": "최대 10시간",
+    "codecs": [
+      "SBC"
+    ],
+    "water_resistance": "IP67",
+    "beginner_summary": "26.4g의 가벼운 넥밴드와 IP67 완전 방진방수로 러닝·사이클링에 최적화된 최신 골전도 스포츠 헤드폰입니다.",
+    "source_url": "https://shokz.com/products/openrun-air-2",
+    "sound_profile": {
+      "bass": 5,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 6,
+      "isolation_anc": 1,
+      "comfort": 9,
+      "signature_label": "야외 러닝 보컬형"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "PremiumPitch 3.0 올메탈 듀얼 코일 골전도 드라이버, 26.4g 경량(기존 OpenRun 대비 9% 소형화), IP67 방진방수, 물리 버튼, AI 통화 노이즈 리덕션, 최대 10시간 연속 재생(5분 충전 2시간), 스탠다드/미니 2가지 사이즈."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 격렬한 러닝에도 흔들리지 않는 안정적인 착용감과 IP67 내구성, 장갑을 끼고도 조작하기 쉬운 물리 버튼, 차량 소리 등 주변 인지력 최상. 단점: 골전도 방식 특성상 극저역 양감과 차음성은 인이어 대비 낮음."
+      }
+    ]
+  },
+  {
+    "id": "shokz-openfit-air-2",
+    "brand": "Shokz",
+    "name": "Shokz OpenFit Air 2",
+    "form_factor": "tws_open_ear",
+    "release_date": "2026-08-27",
+    "release_policy": "rolling_12_months",
+    "price_usd": 129.95,
+    "price_krw_est": 185000,
+    "anc_support": false,
+    "battery_hours": "최대 8시간(케이스 포함 36시간)",
+    "codecs": [
+      "SBC",
+      "AAC"
+    ],
+    "water_resistance": "IP55",
+    "beginner_summary": "유닛당 7.2g의 초경량 이어훅과 Bassphere 듀얼 드라이버로 운동과 출퇴근을 모두 아우르는 오픈이어 무선 이어폰입니다.",
+    "source_url": "https://shokz.com/products/openfit-air-2",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 2,
+      "comfort": 9,
+      "signature_label": "경쾌한 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "Bassphere 듀얼 드라이버 + OpenBass 2.0, 30도 각도 스피커 및 DirectPitch 누음 저감, 0.75mm 니켈-티타늄 이어훅, 유닛당 7.2g, 블루투스 6.1, 멀티포인트, 압력 감지 조작, IP55, 단일 8시간/총 36시간(10분 충전 3시간)."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: OpenFit 시리즈 최경량(7.2g) 설계와 콤팩트해진 케이스, 땀이나 빗물에 오작동이 적은 압력 감지 버튼. 단점: 오픈이어 노이즈 리덕션이나 LDAC 코덱은 미지원."
+      }
+    ]
+  },
+  {
+    "id": "shure-se215",
+    "brand": "Shure",
+    "name": "Shure SE215 PRO",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 99.0,
+    "price_krw_est": 149000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "최대 37dB 패시브 차음과 단단한 저역, 탈착식 MMCX 케이블을 갖춘 유선 인이어 모니터 입문의 교과서입니다.",
+    "source_url": "https://www.shure.com/en-US/products/earphones/se215",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 7,
+      "treble": 6,
+      "soundstage": 6,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "따뜻한 저음 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "싱글 다이내믹 마이크로 드라이버, 주파수 응답 22Hz-17.5kHz, 최대 37dB 패시브 Sound Isolating 차음, 오버이어 착용 방식, 금도금 MMCX 탈착식 3.5mm 케이블."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 10만 원대 중반 가격에 무대용 수준의 뛰어난 차음성과 튼튼한 내구성, 쉬운 케이블 교체. 단점: 최신 고해상도 멀티 드라이버 IEM 대비 고역 개방감과 해상도는 다소 보수적."
+      }
+    ]
+  },
+  {
+    "id": "shure-se425",
+    "brand": "Shure",
+    "name": "Shure SE425 PRO",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 269.0,
+    "price_krw_est": 389000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "듀얼 BA 드라이버로 착색 없는 플랫한 중역과 정확한 모니터링 사운드를 들려주는 스테디셀러 유선 IEM입니다.",
+    "source_url": "https://www.shure.com/en-US/products/earphones/se425cl",
+    "sound_profile": {
+      "bass": 5,
+      "mid": 9,
+      "treble": 7,
+      "soundstage": 6,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "정확한 플랫 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "듀얼 밸런스드 아마추어(BA) 드라이버(전용 트위터+우퍼), 감도 109dB SPL/mW, 임피던스 22Ω, 주파수 응답 20Hz-19kHz, 최대 37dB 패시브 차음, 금도금 MMCX 탈착식 케이블."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 보컬과 악기 중역이 매우 정확하고 명료해 모니터링·보컬 연습에 최적화, 우수한 패시브 차음성. 단점: 저음 양감이 절제되어 있어 묵직한 타격감을 원하는 대중음악 감상자에게는 심심할 수 있음."
+      }
+    ]
+  },
+  {
+    "id": "shure-se535",
+    "brand": "Shure",
+    "name": "Shure SE535 PRO",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 449.0,
+    "price_krw_est": 649000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "트리플 BA 드라이버로 밀도 높은 보컬과 넓은 공간감을 구현해 오랜 기간 사랑받는 슈어의 대표 프로페셔널 IEM입니다.",
+    "source_url": "https://www.shure.com/en-US/products/earphones/se535cl",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 9,
+      "treble": 7,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "농밀한 보컬 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "트리플 밸런스드 아마추어(BA) 드라이버(트위터 1 + 듀얼 우퍼), 감도 119dB SPL/mW, 임피던스 36Ω, 주파수 응답 18Hz-19kHz, 최대 37dB 패시브 차음, MMCX 탈착식 케이블."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 슈어 특유의 진하고 입체적인 보컬 표현력과 높은 감도, 무대·스튜디오에서 검증된 내구성과 차음성. 단점: 초고역의 화려한 뻗침보다는 중역 중심의 따뜻한 성향이며 가격대가 높음."
+      }
+    ]
+  },
+  {
+    "id": "shure-se846-gen-2",
+    "brand": "Shure",
+    "name": "Shure SE846 (Gen 2)",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 899.0,
+    "price_krw_est": 1290000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "쿼드 BA 드라이버와 로우패스 필터, 4종 교체형 노즐로 취향에 맞게 음색을 튜닝하는 슈어 최상위 플래그십 IEM입니다.",
+    "source_url": "https://www.shure.com/en-US/products/earphones/se846",
+    "sound_profile": {
+      "bass": 9,
+      "mid": 9,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 9,
+      "comfort": 8,
+      "signature_label": "서브우퍼급 커스텀 하이엔드"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "쿼드 밸런스드 아마추어(BA) 드라이버 + 스테인리스 스틸 로우패스 필터(실제 서브우퍼 효과), 4종 교체형 노즐(Extended/Balanced/Warm/Bright), 최대 37dB 패시브 차음, MMCX 탈착식 케이블, Comply 폼팁 기본 포함."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: BA 드라이버임에도 깊고 단단한 서브베이스와 2세대 Extended 노즐의 개선된 고역 개방감, 뛰어난 조립 품질과 4가지 사운드 커스터마이징. 단점: 100만 원대 고가이며 하우징이 다소 두꺼워 귀가 매우 작은 사용자에게는 팁 선택이 중요함."
+      }
+    ]
+  },
+  {
+    "id": "shure-aonic-50-gen-2",
+    "brand": "Shure",
+    "name": "Shure AONIC 50 (Gen 2)",
+    "form_factor": "over_ear",
+    "release_date": "2023-09-01",
+    "release_policy": "evergreen_popular",
+    "price_usd": 349.0,
+    "price_krw_est": 549000,
+    "anc_support": true,
+    "battery_hours": "ANC ON 최대 45시간",
+    "codecs": [
+      "SBC",
+      "AAC",
+      "aptX",
+      "aptX HD",
+      "aptX Adaptive",
+      "LDAC"
+    ],
+    "water_resistance": "미지원",
+    "beginner_summary": "50mm 스튜디오 드라이버와 광범위한 고음질 코덱, USB-C 32-bit 유선 연결까지 지원하는 오디오파일용 무선 ANC 헤드폰입니다.",
+    "source_url": "https://www.shure.com/en-US/products/headphones/aonic50",
+    "sound_profile": {
+      "bass": 7,
+      "mid": 9,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 8,
+      "comfort": 8,
+      "signature_label": "스튜디오 레퍼런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "50mm 네오디뮴 다이내믹 드라이버, 4단계 하이브리드 ANC 및 Environment 모드, 공간 음향(음악/영화/팟캐스트), 블루투스 5.0(스냅드래곤 사운드/aptX Adaptive/LDAC), USB-C 최대 32-bit/384kHz 디지털 입력 및 3.5mm 아날로그 입력, 최대 45시간 배터리(15분 충전 5시간), 334g."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 과장 없는 스튜디오급 밸런스 사운드와 기기 자체에 저장되는 파라메트릭 EQ, LDAC·aptX Adaptive·USB-C 무손실 유선까지 아우르는 압도적 연결성. 단점: 334g 무게와 평면 접이식 구조로 휴대성이 다소 크며 ANC 절대 강도는 보스·소니 최상위 모델보다 약간 낮음."
+      }
+    ]
+  },
+  {
+    "id": "westone-audio-pro-x10",
+    "brand": "Westone Audio",
+    "name": "Westone Audio Pro X10",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 249.99,
+    "price_krw_est": 359000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "깃털처럼 가벼운 착용감과 얇은 리넘(Linum) 케이블, 선명한 싱글 BA 사운드로 무대 모니터링에 입문하기 좋은 유선 IEM입니다.",
+    "source_url": "https://westoneaudio.com/products/prox10",
+    "sound_profile": {
+      "bass": 6,
+      "mid": 8,
+      "treble": 7,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 10,
+      "signature_label": "깔끔한 중역 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "싱글 독자 밸런스드 아마추어(BA) 드라이버, 평균 25dB 패시브 차음, 초경량 인체공학 하우징, Estron T2 커넥터 기반 Linum BaX 탈착식 케이블, 실리콘·폼 이어팁 5쌍씩 제공."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 장시간 착용해도 피로가 적은 최상급 착용감과 엉킴·터치 노이즈가 적은 얇은 Linum 케이블, 명료한 중음역. 단점: 싱글 BA 구조로 극저역 펀치감과 초고역 확장은 멀티 드라이버 상위 모델보다 절제됨."
+      }
+    ]
+  },
+  {
+    "id": "westone-audio-pro-x20",
+    "brand": "Westone Audio",
+    "name": "Westone Audio Pro X20",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 369.99,
+    "price_krw_est": 529000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "듀얼 BA 드라이버와 2-way 크로스오버로 탄탄한 저역과 맑은 고역을 동시에 담아낸 웨스톤의 인기 스테이지 IEM입니다.",
+    "source_url": "https://westoneaudio.com/products/pro-x20",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 7,
+      "isolation_anc": 8,
+      "comfort": 10,
+      "signature_label": "탄탄한 저역 밸런스"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "듀얼 독자 밸런스드 아마추어(BA) 드라이버, 2-way 패시브 크로스오버, 평균 25dB 패시브 차음, T2 커넥터 Linum BaX 탈착식 케이블, 다양한 사이즈의 실리콘·컴포트 폼 팁 제공."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: Pro X10 대비 확연히 보강된 저음 양감과 고역 선명도로 드러머·베이시스트 및 대중음악 감상에도 잘 어울림, 탁월한 착용감. 단점: T2 독자 규격 커넥터 사용으로 일반 MMCX/2핀 케이블과 호환되지 않음."
+      }
+    ]
+  },
+  {
+    "id": "westone-audio-pro-x30",
+    "brand": "Westone Audio",
+    "name": "Westone Audio Pro X30",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 499.99,
+    "price_krw_est": 719000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "저·중·고역에 각각 독립 BA 드라이버를 배치한 3-way 설계로 가장 균형 잡힌 무대 모니터링 사운드를 제공하는 베스트셀러입니다.",
+    "source_url": "https://westoneaudio.com/products/pro-x30",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 9,
+      "treble": 8,
+      "soundstage": 8,
+      "isolation_anc": 8,
+      "comfort": 10,
+      "signature_label": "황금 밸런스 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "트리플 독자 밸런스드 아마추어(BA) 드라이버(저·중·고역 독립 배치), 3-way 패시브 크로스오버, 평균 25dB 패시브 차음, T2 커넥터 Linum BaX 탈착식 케이블."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: UM Pro 30의 명성을 잇는 뛰어난 대역 분리도와 자연스러운 3-way 밸런스, 웨스톤 특유의 편안한 인체공학 착용감. 단점: 가격대가 70만 원대에 달하며 T2 케이블 단품 교체 비용이 높은 편."
+      }
+    ]
+  },
+  {
+    "id": "westone-audio-pro-x50",
+    "brand": "Westone Audio",
+    "name": "Westone Audio Pro X50",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 699.99,
+    "price_krw_est": 999000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "5개의 BA 드라이버가 만들어내는 웅장한 저역과 정교한 해상도로 프로 뮤지션과 오디오파일을 만족시키는 Pro X 시리즈 최상위 모델입니다.",
+    "source_url": "https://westoneaudio.com/products/pro-x50",
+    "sound_profile": {
+      "bass": 9,
+      "mid": 9,
+      "treble": 8,
+      "soundstage": 9,
+      "isolation_anc": 8,
+      "comfort": 9,
+      "signature_label": "웅장한 하이엔드 모니터"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "5개 독자 밸런스드 아마추어(BA) 드라이버, 3-way 패시브 크로스오버, 평균 25dB 패시브 차음, T2 커넥터 Linum BaX 탈착식 케이블, 하드 모니터 볼트 케이스 및 풀 팁 키트."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 5BA 특유의 압도적인 정보량과 깊고 풍성한 저역, 넓은 스테이징을 콤팩트한 쉘에 담아냄. 단점: 높은 가격대와 다소 따뜻하고 진한 저역 성향으로 극도로 건조한 분석형 사운드를 선호한다면 호불호가 갈릴 수 있음."
+      }
+    ]
+  },
+  {
+    "id": "westone-audio-mach-40",
+    "brand": "Westone Audio",
+    "name": "Westone Audio MACH 40",
+    "form_factor": "wired_iem",
+    "release_date": null,
+    "release_policy": "evergreen_popular",
+    "price_usd": 659.99,
+    "price_krw_est": 949000,
+    "anc_support": false,
+    "battery_hours": null,
+    "codecs": [],
+    "water_resistance": "미지원",
+    "beginner_summary": "듀얼 저역 포함 4BA 구성과 초저저항 SuperBaX 케이블로 부드럽고 매끄러운 밸런스 사운드를 선사하는 MACH 시리즈 주력 모델입니다.",
+    "source_url": "https://westoneaudio.com/products/mach-40",
+    "sound_profile": {
+      "bass": 8,
+      "mid": 8,
+      "treble": 8,
+      "soundstage": 9,
+      "isolation_anc": 8,
+      "comfort": 9,
+      "signature_label": "부드러운 V자 올라운더"
+    },
+    "review_chunks": [
+      {
+        "chunk_type": "spec",
+        "content": "쿼드 밸런스드 아마추어(BA) 드라이버(듀얼 저역 + 싱글 중역 + 싱글 고역), 3-way 패시브 크로스오버, 0.75Ω 초저저항 Linum Estron SuperBaX 케이블(T2 커넥터), 인체공학 MACH 쉘."
+      },
+      {
+        "chunk_type": "pros_cons",
+        "content": "장점: 자극 없이 매끄럽고 넓은 음장과 음악·영화·모니터링 모두에 어울리는 완성도 높은 밸런스, 고급 SuperBaX 케이블 기본 제공. 단점: 보컬이 약간 뒤로 물러난 약V자 성향이며 T2 전용 커넥터 규격 유지."
+      }
+    ]
+  }
+]

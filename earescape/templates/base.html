@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}막귀탈출 — EarEscape Audio Guide{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+  <link rel="stylesheet" href="/static/css/app.css" />
+</head>
+<body class="bg-[#FAF9F6] text-[#161614] antialiased selection:bg-[#C85A32]/20">
+  <!-- Sticky Editorial Header -->
+  <header class="sticky top-0 z-40 border-b border-[#E4E1DA] bg-[#FAF9F6]/95 backdrop-blur">
+    <div class="mx-auto flex h-[68px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
+      <a href="/" class="flex items-baseline gap-2.5 group">
+        <span class="font-serif text-xl font-bold tracking-tight text-[#161614]">막귀탈출</span>
+        <span class="hidden text-[11px] font-mono uppercase tracking-[0.18em] text-[#63615B] sm:inline">EarEscape Guide</span>
+      </a>
+
+      <nav class="flex items-center gap-1 sm:gap-6 text-sm font-medium">
+        <a href="/" class="px-2 py-1 transition {% if active_nav == "home" %}text-[#C85A32] border-b-2 border-[#C85A32]{% else %}text-[#63615B] hover:text-[#161614]{% endif %}">취향 진단</a>
+        <a href="/chat" class="px-2 py-1 transition {% if active_nav == "chat" %}text-[#C85A32] border-b-2 border-[#C85A32]{% else %}text-[#63615B] hover:text-[#161614]{% endif %}">AI 컨시어지</a>
+        <a href="/compare" class="px-2 py-1 transition flex items-center gap-1.5 {% if active_nav == "compare" %}text-[#C85A32] border-b-2 border-[#C85A32]{% else %}text-[#63615B] hover:text-[#161614]{% endif %}">
+          <span>비교 스튜디오</span>
+          <span id="nav-compare-count" class="hidden rounded-full bg-[#1F5C6E] px-1.5 py-0.5 text-[10px] font-mono text-white">0</span>
+        </a>
+        <a href="/catalog" class="px-2 py-1 transition {% if active_nav == "catalog" %}text-[#C85A32] border-b-2 border-[#C85A32]{% else %}text-[#63615B] hover:text-[#161614]{% endif %}">TOP 10</a>
+      </nav>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <button
+          type="button"
+          onclick="openCollectModal()"
+          class="inline-flex items-center gap-1.5 rounded-full bg-[#C85A32] px-3.5 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-[#AD4A26] active:scale-[0.99]"
+        >
+          <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+          </svg>
+          <span>데이터 수집</span>
+        </button>
+
+        <button
+          type="button"
+          onclick="openGlossaryDrawer()"
+          hx-get="/api/glossary"
+          hx-target="#glossary-drawer-body"
+          hx-trigger="click once"
+          class="rounded-full border border-[#E4E1DA] bg-white px-3 py-1.5 text-xs font-medium text-[#161614] transition hover:border-[#161614]"
+        >
+          음향 사전
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="mx-auto min-h-[calc(100vh-140px)] max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Minimal Editorial Footer -->
+  <footer class="border-t border-[#E4E1DA] bg-[#FAF9F6] py-8 text-xs text-[#63615B]">
+    <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-2 px-4 sm:flex-row sm:items-center sm:px-6 lg:px-8">
+      <p><span class="font-serif font-semibold text-[#161614]">막귀탈출 EarEscape</span> · TOP 10 브랜드 최근 1년 신제품 &amp; 슈어·웨스톤 인기 스테디셀러 RAG 가이드</p>
+      <p class="font-mono text-[11px]">최근 데이터 갱신: <span id="footer-last-collected">{{ last_collected }}</span></p>
+    </div>
+  </footer>
+
+  <!-- Floating Compare Tray -->
+  <div id="compare-tray" class="fixed bottom-5 left-1/2 z-40 hidden -translate-x-1/2 items-center gap-3 rounded-full border border-[#161614] bg-[#161614] px-5 py-2.5 text-xs text-white shadow-lg">
+    <span class="font-mono">비교함 <strong id="tray-count">0</strong>/4</span>
+    <span id="tray-names" class="hidden max-w-xs truncate text-[#D6D3CD] sm:inline"></span>
+    <button type="button" onclick="goToCompare()" class="rounded-full bg-[#C85A32] px-3 py-1 font-semibold text-white hover:bg-[#AD4A26]">비교하기</button>
+    <button type="button" onclick="clearCompare()" class="text-[#A8A59E] hover:text-white">비우기</button>
+  </div>
+
+  <!-- On-Demand Data Collection Modal -->
+  <div id="collect-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/40 p-4 backdrop-blur-sm">
+    <div class="w-full max-w-2xl rounded-2xl border border-[#E4E1DA] bg-white p-6 shadow-xl">
+      <div class="flex items-start justify-between border-b border-[#E4E1DA] pb-4">
+        <div>
+          <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-[#C85A32]">ON-DEMAND COLLECTOR</p>
+          <h2 class="mt-1 font-serif text-xl font-bold text-[#161614]">TOP 10 브랜드 데이터 수집 및 재색인</h2>
+        </div>
+        <button type="button" onclick="closeCollectModal()" class="text-[#63615B] hover:text-[#161614]">닫기 ✕</button>
+      </div>
+
+      <div class="mt-4 space-y-4">
+        <div class="flex items-center justify-between text-xs text-[#63615B]">
+          <span id="collect-status-text">버튼을 눌러 수집을 시작하세요.</span>
+          <span id="collect-progress-pct" class="font-mono font-semibold text-[#161614]">0%</span>
+        </div>
+        <div class="h-2 w-full overflow-hidden rounded-full bg-[#F2F0EB]">
+          <div id="collect-progress-bar" class="h-full w-0 bg-[#C85A32] transition-all duration-200"></div>
+        </div>
+
+        <div id="collect-stream-log" class="h-48 overflow-y-auto rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] p-3 font-mono text-[11px] leading-relaxed text-[#161614]">
+          <p class="text-[#63615B]">수집을 실행하면 10개 브랜드별 정책 검증(8개사 최근 1년 / 슈어·웨스톤 스테디셀러)과 RAG 벡터 재색인 로그가 실시간으로 표시됩니다.</p>
+        </div>
+
+        <div class="flex items-center justify-between pt-1">
+          <button
+            id="btn-start-collect"
+            type="button"
+            onclick="startCollectionStream()"
+            class="rounded-full bg-[#C85A32] px-4 py-2 text-xs font-semibold text-white hover:bg-[#AD4A26]"
+          >
+            지금 데이터 수집 실행
+          </button>
+          <button
+            type="button"
+            hx-get="/api/collect/logs"
+            hx-target="#collect-history-box"
+            class="text-xs font-medium text-[#1F5C6E] underline underline-offset-4"
+          >
+            최근 수집 이력 새로고침
+          </button>
+        </div>
+
+        <div id="collect-history-box" hx-get="/api/collect/logs" hx-trigger="load" class="border-t border-[#E4E1DA] pt-3"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Glossary Slide Drawer -->
+  <div id="glossary-drawer" class="fixed inset-0 z-50 hidden justify-end bg-black/30 backdrop-blur-sm">
+    <div class="flex h-full w-full max-w-md flex-col border-l border-[#E4E1DA] bg-[#FAF9F6] shadow-2xl">
+      <div class="flex items-center justify-between border-b border-[#E4E1DA] bg-white px-6 py-4">
+        <div>
+          <p class="font-mono text-[10px] uppercase tracking-[0.16em] text-[#1F5C6E]">AUDIO GLOSSARY</p>
+          <h2 class="font-serif text-lg font-bold">막귀탈출 입문자 음향 사전</h2>
+        </div>
+        <button type="button" onclick="closeGlossaryDrawer()" class="text-sm text-[#63615B] hover:text-[#161614]">닫기 ✕</button>
+      </div>
+      <div id="glossary-drawer-body" class="flex-1 overflow-y-auto p-6">
+        <p class="text-xs text-[#63615B]">용어 사전을 불러오는 중...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

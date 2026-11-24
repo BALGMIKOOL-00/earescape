@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "anc",
+    "term_ko": "액티브 노이즈 캔슬링 (ANC)",
+    "term_en": "Active Noise Cancellation",
+    "short_analogy": "밖에서 들어오는 지하철·비행기 소음과 정반대 파동을 쏴서 소리를 지워주는 전자 지우개 기능입니다.",
+    "detail_markdown": "마이크로 주변 소음을 실시간 감지해 반대 위상의 음파를 만들어 상쇄합니다. 출퇴근 지하철, 카페, 비행기처럼 일정한 저주파 소음이 있는 곳에서 효과가 가장 큽니다."
+  },
+  {
+    "slug": "passive-isolation",
+    "term_ko": "패시브 차음",
+    "term_en": "Passive Noise Isolation",
+    "short_analogy": "전자 기능 대신 귀마개처럼 폼팁이나 이어팁으로 귓구멍을 물리적으로 꽉 막아 소음을 줄이는 방식입니다.",
+    "detail_markdown": "슈어 SE215나 웨스톤 Pro X 시리즈 같은 유선 IEM은 ANC가 없어도 최대 30~37dB 수준의 높은 물리적 차음력을 제공합니다. 배터리 소모나 화이트 노이즈가 없다는 장점이 있습니다."
+  },
+  {
+    "slug": "dynamic-driver",
+    "term_ko": "다이내믹 드라이버 (DD)",
+    "term_en": "Dynamic Driver",
+    "short_analogy": "집에 있는 일반 스피커를 초소형으로 줄여 놓은 구조로, 둥둥 울리는 자연스럽고 풍성한 저음이 강점입니다.",
+    "detail_markdown": "진동판이 공기를 직접 밀어내어 소리를 만듭니다. 타격감과 자연스러운 울림이 좋아 대중음악·힙합·팝 감상에 가장 널리 쓰입니다."
+  },
+  {
+    "slug": "ba-driver",
+    "term_ko": "밸런스드 아마추어 (BA)",
+    "term_en": "Balanced Armature Driver",
+    "short_analogy": "보청기 기술에서 발전한 초정밀 스피커로, 가수 숨소리와 악기 디테일을 칼같이 또렷하게 들려줍니다.",
+    "detail_markdown": "크기가 매우 작아 하나의 이어폰 안에 3~8개씩 넣을 수 있습니다. 웨스톤 Pro X30, MACH 40, 슈어 SE846처럼 높은 해상도와 정교한 분리도를 원할 때 주로 사용됩니다."
+  },
+  {
+    "slug": "v-shape",
+    "term_ko": "V자 사운드 성향",
+    "term_en": "V-Shaped Sound Signature",
+    "short_analogy": "저음(쿵쿵)과 고음(짜랑짜랑)을 양쪽에서 강조해 처음 들었을 때 신나고 화려하게 느껴지는 소리입니다.",
+    "detail_markdown": "그래프로 그렸을 때 저역과 고역이 올라가고 중역이 살짝 내려가 V자 모양을 띱니다. 팝, EDM, 힙합, 영화 감상에서 몰입감이 높습니다."
+  },
+  {
+    "slug": "flat-neutral",
+    "term_ko": "플랫 / 원음 성향",
+    "term_en": "Flat / Neutral Signature",
+    "short_analogy": "특정 양념을 치지 않고 녹음실 엔지니어가 만든 원래 재료 맛 그대로 들려주는 균형 잡힌 소리입니다.",
+    "detail_markdown": "저음·중음·고음 어느 한쪽을 과장하지 않습니다. 처음엔 심심할 수 있지만 오래 들어도 귀가 덜 피로하고, 클래식·재즈·모니터링에 적합합니다."
+  },
+  {
+    "slug": "soundstage",
+    "term_ko": "공간감 (스테이징)",
+    "term_en": "Soundstage",
+    "short_analogy": "음악이 머릿속 좁은 방에서 울리는지, 넓은 콘서트홀 무대 앞에서 울리는지 느껴지는 공간의 크기입니다.",
+    "detail_markdown": "공간감이 넓을수록 보컬은 가운데, 드럼은 뒤쪽, 기타는 양옆처럼 악기 위치가 입체적으로 그려집니다. 대체로 오버이어 헤드폰이 이어폰보다 공간감이 넓습니다."
+  },
+  {
+    "slug": "ldac-aptx-lossless",
+    "term_ko": "고음질 코덱 (LDAC / aptX Lossless)",
+    "term_en": "High-Res Bluetooth Codecs",
+    "short_analogy": "스마트폰에서 이어폰으로 음악 데이터를 보내는 고속도로 차선 수라고 생각하면 쉽습니다. 차선이 넓을수록 음질 손실이 적습니다.",
+    "detail_markdown": "기본 SBC/AAC보다 훨씬 많은 오디오 정보를 무선으로 전송합니다. 단, 스마트폰과 이어폰 양쪽 모두 해당 코덱을 지원해야 작동합니다."
+  },
+  {
+    "slug": "open-ear",
+    "term_ko": "오픈이어 / 골전도",
+    "term_en": "Open-Ear / Bone Conduction",
+    "short_analogy": "귓구멍을 아예 막지 않고 귀 옆에서 소리를 들려줘서 러닝할 때 자동차 소리도 함께 들을 수 있는 안전한 방식입니다.",
+    "detail_markdown": "샥즈 OpenFit Pro·OpenRun Air 2, 삼성 Galaxy Buds On처럼 귀 압박감이 전혀 없어 운동·사무실 장시간 착용에 최적입니다."
+  },
+  {
+    "slug": "iem",
+    "term_ko": "인이어 모니터 (IEM)",
+    "term_en": "In-Ear Monitor",
+    "short_analogy": "가수들이 무대에서 자기 목소리와 반주를 정확히 듣기 위해 귀에 꽂는 전문가용 유선 이어폰입니다.",
+    "detail_markdown": "슈어 SE 시리즈와 웨스톤 Pro X/MACH 시리즈가 대표적입니다. 케이블을 귀 뒤로 넘겨 착용해 선이 흔들려도 빠지지 않고 잡음이 적습니다."
+  },
+  {
+    "slug": "spatial-audio",
+    "term_ko": "공간 음향 (Spatial Audio)",
+    "term_en": "Spatial Audio / Dolby Atmos",
+    "short_analogy": "고개를 돌리면 소리 방향도 함께 바뀌어 마치 영화관 한가운데 앉아 있는 듯한 입체감을 주는 기술입니다.",
+    "detail_markdown": "애플 AirPods Max 2, 보스 QuietComfort 2세대(TrueSpatial), 젠하이저 MOMENTUM 5 등에서 지원하며 영화·라이브 영상 감상 시 몰입감을 크게 높여줍니다."
+  },
+  {
+    "slug": "ip-rating",
+    "term_ko": "방진·방수 등급 (IP54 / IP55 / IP57)",
+    "term_en": "Ingress Protection Rating",
+    "short_analogy": "앞 숫자는 먼지, 뒤 숫자는 물(땀·비)을 얼마나 잘 버티는지 나타내는 방패 등급입니다.",
+    "detail_markdown": "IPX4는 가벼운 땀·비 방어, IP54~55는 운동 시 땀과 먼지까지 안정적으로 방어, IP57은 일시적 침수까지 견디는 높은 수준입니다."
+  }
+]

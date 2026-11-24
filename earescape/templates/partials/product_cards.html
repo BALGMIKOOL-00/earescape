@@ -1,0 +1,47 @@
+{% if products.is_empty() %}
+<div class="rounded-2xl border border-dashed border-[#E4E1DA] bg-white p-12 text-center text-sm text-[#63615B]">
+  선택하신 필터 조건에 일치하는 제품이 없습니다. 조건을 완화해 다시 탐색해 보세요.
+</div>
+{% else %}
+<div class="mb-4 text-xs font-mono text-[#63615B]">검색 결과 총 {{ products.len() }}개 제품</div>
+<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  {% for p in products %}
+  <article class="flex flex-col justify-between rounded-2xl border border-[#E4E1DA] bg-white p-6 transition hover:border-[#161614] hover:shadow-sm">
+    <div>
+      <div class="flex items-center justify-between gap-2">
+        <span class="font-mono text-[11px] uppercase tracking-wider text-[#63615B]">{{ p.brand }}</span>
+        <span class="rounded-full px-2.5 py-0.5 text-[10px] font-medium {% if p.is_evergreen() %}bg-[#5B4B8A]/10 text-[#5B4B8A]{% else %}bg-[#C85A32]/10 text-[#C85A32]{% endif %}">
+          {{ p.policy_label() }}
+        </span>
+      </div>
+
+      <h3 class="mt-2 font-serif text-lg font-bold text-[#161614]">{{ p.name }}</h3>
+      <p class="mt-1 font-mono text-xs text-[#63615B]">
+        {{ p.form_factor_label() }} · 약 {{ p.price_manwon() }}만 원 · {% if p.anc_support %}ANC 지원{% else %}ANC 미지원{% endif %}
+      </p>
+
+      <p class="mt-3 text-xs leading-relaxed text-[#63615B]">{{ p.beginner_summary }}</p>
+
+      <div class="mt-4 flex flex-wrap gap-1.5 font-mono text-[10px] text-[#63615B]">
+        <span class="rounded bg-[#F2F0EB] px-2 py-0.5">{{ p.sound_profile.signature_label }}</span>
+        <span class="rounded bg-[#F2F0EB] px-2 py-0.5">저{{ p.sound_profile.bass }} · 중{{ p.sound_profile.mid }} · 고{{ p.sound_profile.treble }}</span>
+        <span class="rounded bg-[#F2F0EB] px-2 py-0.5">{{ p.release_display() }}</span>
+      </div>
+    </div>
+
+    <div class="mt-5 flex items-center justify-between border-t border-[#E4E1DA] pt-4 text-xs">
+      <button
+        type="button"
+        onclick="toggleCompareItem('{{ p.id }}', '{{ p.name }}')"
+        class="font-semibold text-[#161614] hover:text-[#C85A32]"
+      >
+        + 비교함에 담기
+      </button>
+      <a href="{{ p.source_url }}" target="_blank" rel="noopener noreferrer" class="font-medium text-[#1F5C6E] underline underline-offset-4">
+        공식 출처 ↗
+      </a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endif %}

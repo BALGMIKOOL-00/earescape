@@ -1,0 +1,87 @@
+<div class="space-y-6">
+  <div class="flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+    <div>
+      <p class="font-mono text-xs uppercase tracking-[0.16em] text-[#C85A32]">EDITOR'S PICK · TOP 3</p>
+      <h3 class="mt-1 font-serif text-2xl font-bold text-[#161614]">당신의 귀에 가장 잘 맞는 추천 결과</h3>
+    </div>
+    <span class="font-mono text-xs text-[#63615B]">전체 {{ result.total_candidates }}종 중 {{ result.filtered_candidates }}종 후보 평가</span>
+  </div>
+
+  {% if result.relaxed_fallback %}
+  <div class="rounded-xl border border-[#C85A32]/30 bg-[#C85A32]/5 px-4 py-3 text-xs text-[#161614]">
+    {{ result.fallback_notice }}
+  </div>
+  {% endif %}
+
+  <div class="grid gap-6 md:grid-cols-3">
+    {% for item in result.top3 %}
+    <article class="flex flex-col justify-between rounded-2xl border border-[#E4E1DA] bg-white p-6 transition hover:border-[#161614] hover:shadow-sm">
+      <div>
+        <div class="flex items-center justify-between">
+          <span class="font-serif text-2xl font-bold text-[#C85A32]">0{{ item.rank }}</span>
+          <span class="rounded-full bg-[#161614] px-2.5 py-0.5 font-mono text-xs font-semibold text-white">매칭 {{ item.match_percent }}%</span>
+        </div>
+
+        <div class="mt-4 flex items-center gap-2">
+          <span class="font-mono text-[11px] uppercase tracking-wider text-[#63615B]">{{ item.product.brand }}</span>
+          <span class="rounded-full px-2 py-0.5 text-[10px] font-medium {% if item.product.is_evergreen() %}bg-[#5B4B8A]/10 text-[#5B4B8A]{% else %}bg-[#C85A32]/10 text-[#C85A32]{% endif %}">
+            {{ item.product.policy_label() }}
+          </span>
+        </div>
+
+        <h4 class="mt-1 font-serif text-xl font-bold text-[#161614]">{{ item.product.name }}</h4>
+        <p class="mt-1 font-mono text-xs text-[#63615B]">{{ item.product.form_factor_label() }} · 약 {{ item.product.price_manwon() }}만 원</p>
+
+        <p class="mt-3 text-xs leading-relaxed text-[#63615B]">{{ item.product.beginner_summary }}</p>
+
+        <!-- Bass / Mid / Treble Mini Bars -->
+        <div class="mt-4 space-y-1.5 rounded-xl bg-[#FAF9F6] p-3 text-[11px]">
+          <div class="flex items-center gap-2">
+            <span class="w-8 text-[#63615B]">저음</span>
+            <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#E4E1DA]">
+              <div class="h-full bg-[#C85A32]" style="width: {{ item.product.sound_profile.bass }}0%"></div>
+            </div>
+            <span class="w-5 text-right font-mono">{{ item.product.sound_profile.bass }}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-8 text-[#63615B]">중음</span>
+            <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#E4E1DA]">
+              <div class="h-full bg-[#1F5C6E]" style="width: {{ item.product.sound_profile.mid }}0%"></div>
+            </div>
+            <span class="w-5 text-right font-mono">{{ item.product.sound_profile.mid }}</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-8 text-[#63615B]">고음</span>
+            <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-[#E4E1DA]">
+              <div class="h-full bg-[#5B4B8A]" style="width: {{ item.product.sound_profile.treble }}0%"></div>
+            </div>
+            <span class="w-5 text-right font-mono">{{ item.product.sound_profile.treble }}</span>
+          </div>
+        </div>
+
+        <ul class="mt-4 space-y-1 text-[11px] text-[#63615B]">
+          {% for reason in item.match_reasons %}
+          <li>· {{ reason }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="mt-6 flex items-center justify-between gap-2 border-t border-[#E4E1DA] pt-4 text-xs">
+        <button
+          type="button"
+          onclick="toggleCompareItem('{{ item.product.id }}', '{{ item.product.name }}')"
+          class="font-semibold text-[#161614] hover:text-[#C85A32]"
+        >
+          + 비교함
+        </button>
+        <a href="/chat?q={{ item.product.brand }} {{ item.product.name }} 장단점과 추천 대상 쉽게 설명해줘" class="font-medium text-[#C85A32] hover:underline">
+          AI 상세 질문
+        </a>
+        <a href="{{ item.product.source_url }}" target="_blank" rel="noopener noreferrer" class="font-medium text-[#1F5C6E] underline underline-offset-4">
+          출처 ↗
+        </a>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>

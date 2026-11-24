@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}TOP 10 브랜드 카탈로그 — 막귀탈출{% endblock %}
+
+{% block content %}
+<div class="border-b border-[#E4E1DA] pb-6">
+  <p class="font-mono text-xs uppercase tracking-[0.18em] text-[#C85A32]">04 / TOP 10 DIRECTORY</p>
+  <h1 class="mt-1 font-serif text-3xl font-bold text-[#161614]">TOP 10 제조사 전체 카탈로그</h1>
+  <p class="mt-1 text-sm text-[#63615B]">일반 8개사는 최근 1년 신제품만, 슈어·웨스톤 오디오는 인기 스테디셀러를 함께 탐색합니다.</p>
+</div>
+
+<!-- Filter Bar -->
+<form
+  hx-get="/api/products"
+  hx-target="#catalog-grid"
+  hx-trigger="change, submit"
+  class="mt-6 rounded-2xl border border-[#E4E1DA] bg-white p-5"
+>
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-6">
+    <div>
+      <label class="block text-[11px] font-semibold uppercase tracking-wider text-[#63615B]">제조사 (TOP 10)</label>
+      <select name="brand" class="mt-1.5 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs">
+        <option value="all">전체 10개 브랜드</option>
+        {% for b in brands %}
+        <option value="{{ b }}">{{ b }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-[11px] font-semibold uppercase tracking-wider text-[#63615B]">착용 방식</label>
+      <select name="form_factor" class="mt-1.5 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs">
+        <option value="all">전체 폼팩터</option>
+        <option value="tws_in_ear">커널형 무선(TWS)</option>
+        <option value="tws_open_ear">오픈형 무선</option>
+        <option value="bone_conduction">골전도 스포츠</option>
+        <option value="over_ear">오버이어 헤드폰</option>
+        <option value="wired_iem">유선 인이어(IEM)</option>
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-[11px] font-semibold uppercase tracking-wider text-[#63615B]">정책 구분</label>
+      <select name="policy" class="mt-1.5 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs">
+        <option value="all">전체 보기</option>
+        <option value="rolling_12_months">최근 1년 신제품 (8개사)</option>
+        <option value="evergreen_popular">인기 스테디셀러 (슈어·웨스톤)</option>
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-[11px] font-semibold uppercase tracking-wider text-[#63615B]">예산 상한</label>
+      <select name="max_budget_manwon" class="mt-1.5 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs">
+        <option value="0">전체 예산</option>
+        <option value="15">15만 원 이하</option>
+        <option value="35">35만 원 이하</option>
+        <option value="55">55만 원 이하</option>
+      </select>
+    </div>
+
+    <div>
+      <label class="block text-[11px] font-semibold uppercase tracking-wider text-[#63615B]">정렬</label>
+      <select name="sort" class="mt-1.5 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs">
+        <option value="latest">최신 출시순</option>
+        <option value="price_asc">가격 낮은순</option>
+        <option value="price_desc">가격 높은순</option>
+      </select>
+    </div>
+
+    <div class="flex items-end">
+      <label class="inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-2 text-xs font-medium">
+        <input type="checkbox" name="anc_only" value="true" class="accent-[#C85A32]" />
+        <span>ANC만</span>
+      </label>
+    </div>
+  </div>
+</form>
+
+<!-- Product Grid -->
+<div id="catalog-grid" class="mt-8">
+  {% include "partials/product_cards.html" %}
+</div>
+{% endblock %}

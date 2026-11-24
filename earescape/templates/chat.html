@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}AI 사운드 컨시어지 — 막귀탈출{% endblock %}
+
+{% block content %}
+<div class="border-b border-[#E4E1DA] pb-6">
+  <p class="font-mono text-xs uppercase tracking-[0.18em] text-[#1F5C6E]">02 / AI SOUND CONCIERGE</p>
+  <h1 class="mt-1 font-serif text-3xl font-bold text-[#161614]">AI 사운드 컨시어지 (RAG 추천)</h1>
+  <p class="mt-2 text-sm text-[#63615B]">TOP 10 브랜드 데이터베이스에서 근거를 검색해 입문자 언어로 답변합니다. <span class="font-mono text-xs text-[#1F5C6E]">({{ llm_mode }})</span></p>
+</div>
+
+<div class="mt-8 grid gap-8 lg:grid-cols-12">
+  <div class="lg:col-span-8">
+    <!-- Quick Prompt Chips -->
+    <div class="mb-4 flex flex-wrap gap-2 text-xs">
+      <button type="button" onclick="fillChatPrompt('소니 WF-1000XM6랑 젠하이저 모멘텀 TW5 노캔과 음질 차이 쉽게 알려줘')" class="rounded-full border border-[#E4E1DA] bg-white px-3.5 py-1.5 text-[#161614] hover:border-[#C85A32]">소니 XM6 vs 젠하이저 TW5</button>
+      <button type="button" onclick="fillChatPrompt('러닝할 때 쓸 샥즈 신제품 추천해줘')" class="rounded-full border border-[#E4E1DA] bg-white px-3.5 py-1.5 text-[#161614] hover:border-[#C85A32]">러닝용 샥즈 신제품</button>
+      <button type="button" onclick="fillChatPrompt('슈어 SE215랑 웨스톤 Pro X10 입문자한테 뭐가 나아?')" class="rounded-full border border-[#E4E1DA] bg-white px-3.5 py-1.5 text-[#161614] hover:border-[#C85A32]">슈어 SE215 vs 웨스톤 Pro X10</button>
+      <button type="button" onclick="fillChatPrompt('10만 원 이하 QCY나 앤커 가성비 헤드폰 추천해줘')" class="rounded-full border border-[#E4E1DA] bg-white px-3.5 py-1.5 text-[#161614] hover:border-[#C85A32]">10만 원대 가성비 헤드폰</button>
+    </div>
+
+    <form
+      hx-post="/api/rag/ask"
+      hx-target="#rag-conversation"
+      hx-swap="afterbegin"
+      hx-indicator="#rag-loading"
+      class="flex gap-2 rounded-2xl border border-[#E4E1DA] bg-white p-2 shadow-sm"
+    >
+      <input
+        id="chat-query-input"
+        name="query"
+        type="text"
+        required
+        placeholder="예: 지하철에서 조용하고 저음 좋은 30만 원대 이어폰 추천해 줘"
+        class="flex-1 bg-transparent px-4 py-2.5 text-sm text-[#161614] placeholder-[#9E9B93] focus:outline-none"
+      />
+      <button type="submit" class="rounded-xl bg-[#161614] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#C85A32] transition">
+        질문하기
+      </button>
+    </form>
+
+    <div id="rag-loading" class="htmx-indicator mt-4 rounded-xl border border-[#E4E1DA] bg-[#F2F0EB] px-4 py-3 text-xs text-[#63615B]">
+      TOP 10 브랜드 지식 베이스(FTS5 + 벡터 RRF)를 검색해 입문자 언어로 정리하고 있습니다...
+    </div>
+
+    <div id="rag-conversation" class="mt-6 space-y-6">
+      <div class="rounded-2xl border border-dashed border-[#E4E1DA] bg-white/70 p-8 text-center text-sm text-[#63615B]">
+        위 추천 질문 칩을 누르거나 원하는 조건(예산, 장르, 노캔, 착용감)을 자유롭게 입력해 보세요.
+      </div>
+    </div>
+  </div>
+
+  <!-- Editorial Guide Sidebar -->
+  <aside class="lg:col-span-4">
+    <div class="rounded-2xl border border-[#E4E1DA] bg-white p-6">
+      <p class="font-mono text-[11px] uppercase tracking-[0.16em] text-[#C85A32]">CURATION POLICY</p>
+      <h2 class="mt-1 font-serif text-lg font-bold">RAG 추천 기준 안내</h2>
+      <ul class="mt-4 space-y-3 text-xs leading-relaxed text-[#63615B]">
+        <li class="flex gap-2"><span class="font-mono text-[#161614]">01</span><span><strong>최근 1년 신제품 (8개사)</strong>: 애플, 삼성전자, 소니, 보스, 젠하이저, 앤커, QCY, 샥즈</span></li>
+        <li class="flex gap-2"><span class="font-mono text-[#5B4B8A]">02</span><span><strong>인기 스테디셀러 (2개사)</strong>: 슈어(Shure), 웨스톤 오디오(Westone Audio)는 출시일 제한 없이 명기 비교</span></li>
+        <li class="flex gap-2"><span class="font-mono text-[#1F5C6E]">03</span><span><strong>근거 기반 답변</strong>: 모든 추천에는 공식 출처 링크와 비교함 담기 버튼이 함께 제공됩니다.</span></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+{% endblock %}

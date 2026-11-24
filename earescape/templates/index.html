@@ -1,0 +1,172 @@
+{% extends "base.html" %}
+
+{% block title %}막귀탈출 — 내 귀에 맞는 TOP 10 취향 진단{% endblock %}
+
+{% block content %}
+<!-- Editorial Hero -->
+<section class="border-b border-[#E4E1DA] pb-12">
+  <div class="grid gap-8 lg:grid-cols-12 lg:items-end">
+    <div class="lg:col-span-8">
+      <p class="font-mono text-xs uppercase tracking-[0.2em] text-[#C85A32]">VOL. 2026 · TOP 10 BRAND EDITION</p>
+      <h1 class="mt-3 font-serif text-4xl font-bold leading-tight tracking-tight text-[#161614] sm:text-5xl">
+        어려운 음향 스펙 대신,<br/>내 귀의 취향으로 고르다.
+      </h1>
+      <p class="mt-4 max-w-2xl text-base leading-relaxed text-[#63615B]">
+        애플·삼성·소니·보스·젠하이저·앤커·QCY·샥즈의 <strong class="text-[#161614]">최근 1년 신제품</strong>과
+        슈어·웨스톤 오디오의 <strong class="text-[#5B4B8A]">검증된 스테디셀러</strong> 총 {{ total_products }}종을
+        저음·중음·고음 취향과 RAG 근거로 비교합니다.
+      </p>
+    </div>
+    <div class="flex flex-wrap gap-3 lg:col-span-4 lg:justify-end">
+      <a href="#diagnostic-form" class="rounded-full bg-[#161614] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#2F2E2A]">취향 진단 시작 ↓</a>
+      <a href="/chat" class="rounded-full border border-[#E4E1DA] bg-white px-5 py-2.5 text-sm font-semibold text-[#161614] transition hover:border-[#161614]">AI에게 바로 물어보기</a>
+    </div>
+  </div>
+</section>
+
+<!-- 01 / Taste Diagnostic Form -->
+<section id="diagnostic-form" class="py-12">
+  <div class="mb-8 flex flex-col justify-between gap-2 sm:flex-row sm:items-end">
+    <div>
+      <p class="font-mono text-xs uppercase tracking-[0.18em] text-[#63615B]">01 / TASTE DIAGNOSTIC</p>
+      <h2 class="mt-1 font-serif text-2xl font-bold text-[#161614]">정밀 취향 진단</h2>
+    </div>
+    <span class="font-mono text-[11px] text-[#63615B]">AI 엔진 상태: {{ llm_mode }}</span>
+  </div>
+
+  <form
+    hx-post="/api/quiz/recommend"
+    hx-target="#quiz-result-area"
+    hx-swap="innerHTML"
+    class="rounded-2xl border border-[#E4E1DA] bg-white p-6 sm:p-8 shadow-sm"
+  >
+    <!-- Step 1: Sound Signature (Bass / Mid / Treble) -->
+    <div class="border-b border-[#E4E1DA] pb-8">
+      <div class="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
+        <div>
+          <h3 class="text-base font-bold text-[#161614]">1. 선호하는 사운드 성향 (저음 · 중음 · 고음)</h3>
+          <p class="mt-0.5 text-xs text-[#63615B]">프리셋을 누르거나 슬라이더로 직접 조절해 보세요.</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <button type="button" onclick="applySoundPreset(5,3,3)" class="rounded-full border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-1 hover:border-[#C85A32]">풍성한 저음</button>
+          <button type="button" onclick="applySoundPreset(3,5,4)" class="rounded-full border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-1 hover:border-[#C85A32]">또렷한 보컬</button>
+          <button type="button" onclick="applySoundPreset(4,4,4)" class="rounded-full border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-1 hover:border-[#C85A32]">원음 밸런스</button>
+          <button type="button" onclick="applySoundPreset(3,4,5)" class="rounded-full border border-[#E4E1DA] bg-[#FAF9F6] px-3 py-1 hover:border-[#C85A32]">시원한 고음</button>
+        </div>
+      </div>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-3">
+        <div class="rounded-xl bg-[#FAF9F6] p-4">
+          <div class="flex items-center justify-between text-sm font-semibold">
+            <label for="slider-bass">저음 (Bass)</label>
+            <span id="val-bass" class="font-mono text-[#C85A32]">4 / 5</span>
+          </div>
+          <input id="slider-bass" name="bass" type="range" min="1" max="5" value="4" oninput="document.getElementById('val-bass').textContent=this.value+' / 5'" class="mt-3 w-full accent-[#C85A32]" />
+          <div class="mt-1 flex justify-between text-[11px] text-[#63615B]"><span>담백함</span><span>강렬한 울림</span></div>
+        </div>
+
+        <div class="rounded-xl bg-[#FAF9F6] p-4">
+          <div class="flex items-center justify-between text-sm font-semibold">
+            <label for="slider-mid">중음 · 보컬 (Mid)</label>
+            <span id="val-mid" class="font-mono text-[#C85A32]">4 / 5</span>
+          </div>
+          <input id="slider-mid" name="mid" type="range" min="1" max="5" value="4" oninput="document.getElementById('val-mid').textContent=this.value+' / 5'" class="mt-3 w-full accent-[#C85A32]" />
+          <div class="mt-1 flex justify-between text-[11px] text-[#63615B]"><span>자연스러움</span><span>가까운 보컬</span></div>
+        </div>
+
+        <div class="rounded-xl bg-[#FAF9F6] p-4">
+          <div class="flex items-center justify-between text-sm font-semibold">
+            <label for="slider-treble">고음 · 선명도 (Treble)</label>
+            <span id="val-treble" class="font-mono text-[#C85A32]">4 / 5</span>
+          </div>
+          <input id="slider-treble" name="treble" type="range" min="1" max="5" value="4" oninput="document.getElementById('val-treble').textContent=this.value+' / 5'" class="mt-3 w-full accent-[#C85A32]" />
+          <div class="mt-1 flex justify-between text-[11px] text-[#63615B]"><span>부드러움</span><span>화사한 해상도</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 2 & 3 & 4: ANC, Form Factor, Budget, Use Case -->
+    <div class="grid gap-8 py-8 md:grid-cols-2">
+      <!-- ANC -->
+      <div>
+        <h3 class="text-sm font-bold text-[#161614]">2. ANC (노이즈 캔슬링) 기능 유무</h3>
+        <div class="mt-3 grid grid-cols-3 gap-2 text-xs">
+          <label class="cursor-pointer rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] p-3 text-center has-[:checked]:border-[#C85A32] has-[:checked]:bg-[#C85A32]/5">
+            <input type="radio" name="anc" value="required" class="sr-only" />
+            <span class="block font-semibold">필수</span>
+            <span class="mt-0.5 block text-[11px] text-[#63615B]">강력 소음 차단</span>
+          </label>
+          <label class="cursor-pointer rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] p-3 text-center has-[:checked]:border-[#C85A32] has-[:checked]:bg-[#C85A32]/5">
+            <input type="radio" name="anc" value="preferred" checked class="sr-only" />
+            <span class="block font-semibold">있으면 좋음</span>
+            <span class="mt-0.5 block text-[11px] text-[#63615B]">우선 가산점</span>
+          </label>
+          <label class="cursor-pointer rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] p-3 text-center has-[:checked]:border-[#C85A32] has-[:checked]:bg-[#C85A32]/5">
+            <input type="radio" name="anc" value="any" class="sr-only" />
+            <span class="block font-semibold">상관없음</span>
+            <span class="mt-0.5 block text-[11px] text-[#63615B]">오픈·유선 포함</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Wearing Style -->
+      <div>
+        <h3 class="text-sm font-bold text-[#161614]">3. 선호 착용 방식 (폼팩터)</h3>
+        <select name="form_factor" class="mt-3 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-4 py-3 text-sm text-[#161614] focus:border-[#C85A32] focus:outline-none">
+          <option value="any">전체 상관없음</option>
+          <option value="tws_in_ear">커널형 무선 이어폰 (TWS)</option>
+          <option value="tws_open_ear">오픈형 무선 이어폰 (귀 안 답답함)</option>
+          <option value="bone_conduction">골전도 스포츠 헤드폰 (러닝·운동)</option>
+          <option value="over_ear">오버이어 헤드폰 (귀를 덮는 형태)</option>
+          <option value="wired_iem">유선 인이어 모니터 (IEM · 슈어/웨스톤)</option>
+        </select>
+      </div>
+
+      <!-- Budget -->
+      <div>
+        <div class="flex items-center justify-between">
+          <h3 class="text-sm font-bold text-[#161614]">4. 최대 예산</h3>
+          <span id="val-budget" class="font-mono text-sm font-semibold text-[#C85A32]">50만 원 이하</span>
+        </div>
+        <input
+          id="slider-budget"
+          name="budget_manwon"
+          type="range"
+          min="10"
+          max="130"
+          step="5"
+          value="50"
+          oninput="document.getElementById('val-budget').textContent=this.value+'만 원 이하'"
+          class="mt-3 w-full accent-[#C85A32]"
+        />
+        <div class="mt-2 flex flex-wrap gap-1.5 text-[11px]">
+          <button type="button" onclick="setBudget(15)" class="rounded-full border border-[#E4E1DA] px-2.5 py-0.5 hover:border-[#161614]">15만 원</button>
+          <button type="button" onclick="setBudget(35)" class="rounded-full border border-[#E4E1DA] px-2.5 py-0.5 hover:border-[#161614]">35만 원</button>
+          <button type="button" onclick="setBudget(55)" class="rounded-full border border-[#E4E1DA] px-2.5 py-0.5 hover:border-[#161614]">55만 원</button>
+          <button type="button" onclick="setBudget(130)" class="rounded-full border border-[#E4E1DA] px-2.5 py-0.5 hover:border-[#161614]">제한 없음</button>
+        </div>
+      </div>
+
+      <!-- Use Case -->
+      <div>
+        <h3 class="text-sm font-bold text-[#161614]">5. 주 사용 환경 (선택)</h3>
+        <select name="use_case" class="mt-3 w-full rounded-xl border border-[#E4E1DA] bg-[#FAF9F6] px-4 py-3 text-sm text-[#161614] focus:border-[#C85A32] focus:outline-none">
+          <option value="all">일상 전반 (올라운드)</option>
+          <option value="commute">지하철 · 버스 출퇴근 (소음 차단 중요)</option>
+          <option value="workout">러닝 · 헬스 운동 (안전 · 방수 중요)</option>
+          <option value="studio">집 · 스튜디오 음악 감상 (원음 · 해상도)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="flex justify-end border-t border-[#E4E1DA] pt-6">
+      <button type="submit" class="rounded-full bg-[#C85A32] px-8 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#AD4A26]">
+        내 취향 TOP 3 추천받기 →
+      </button>
+    </div>
+  </form>
+
+  <!-- HTMX Recommendation Results -->
+  <div id="quiz-result-area" class="mt-10"></div>
+</section>
+{% endblock %}
